@@ -45,6 +45,16 @@ h1{
     font-size: 34px;
 }
 
+h2{
+    font-family: raleway, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+    letter-spacing: 13px;
+    text-transform: uppercase;
+}
+
+
 h4{
     font-family: playfair display,serif;
     font-size: 17px;
@@ -77,8 +87,10 @@ a{
     padding: 12% 0 10% 0;
 }
 
-.team-member {
-  box-shadow: 10px 10px 0px #FFEAE0; 
+.chochin {
+    box-shadow: 10px 10px 0px #FFEAE0; 
+    width: 100%;
+    margin-bottom: 30%;
 }
 
 .logo-accueil{
@@ -105,12 +117,19 @@ p {
     margin: 305% -20px;
 }
 
+.rectangle2{
+    width: 335%;
+    height: 3%;
+    background: #feeae0;
+    margin: 305% -20px;
+}
+
 .h1-left {
     font-family: lora, serif;
     font-weight: 400;
     font-style: normal;
     font-size: 27px;
-    margin-top: 31%;
+    margin-top: 31.8%;
 }
 
 .p-left {
@@ -119,28 +138,45 @@ p {
     font-style: normal;
     font-size: 14px;
     line-height: 2.3em;
+    margin-bottom: 9%;
+}
+
+.btn-primary{
+    text-transform: uppercase;
+    font-family: raleway ,sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    padding: 2.5% 9.5%;
+    border: 2px solid #968B7F;
+    background-color: #ffffff;
+    border-radius: 0px;
+}
+
+.btn-primary:hover{
+    text-transform: uppercase;
+    font-family: raleway ,sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    font-style: normal;
+    border: 2px solid #FFCCB7;
+    background-color: #FFCCB7;
+    border-radius: 0px;
 }
 
 .text-brown{
     color: #968B7F;
 }
 
-#section-slogan{
-    background-image: url("../pictures/cta.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 0 0;
-    background-size: cover;
+#Patisseries{
+    background-color: #E5E2DF;
     width: 100%;
-    padding: 200px 0;
-}
-.slogan{
-    font-family: playfair display,sans-serif;
+    padding: 6% 0 10% 0;
 }
 
-.team-member{
-    width: 100%;
+.container-sm{
+    margin-top: 7%;
 }
+
 .sponsor{
     width: 100%;
 }
