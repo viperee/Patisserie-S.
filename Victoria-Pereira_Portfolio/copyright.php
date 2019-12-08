@@ -1,8 +1,8 @@
 <footer class="background-color-spring-wood p-4">
-    <div class="container">
+    <div>
         <div class="row">
-            <div class="col-8">
-                <div class="copyright-text-color-kabul"><span><i class="far fa-copyright fa-2x align-middle pr-3"></i></span><span class="align-middle">Copyright Patisserie S. 2020</span></div>
+            <div class="col-3 offset-2">
+                <div class="copyright-text-color-kabul"><span><img class="copyright-icons pr-3" src="icons/copyright.svg"></span><span class="align-middle">Copyright Patisserie S. 2020</span></div>
             </div>
         </div>
     </div>

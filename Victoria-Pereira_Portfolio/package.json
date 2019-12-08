@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.11.2",
     "bootstrap": "^4.4.0",
     "jquery": "^3.4.1",
     "node-sass": "^4.13.0",
