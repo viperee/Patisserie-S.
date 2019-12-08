@@ -9,10 +9,8 @@ header{
 
 .navbar-dark .navbar-nav .nav-link{
     font-family: avenir, sans-serif;
-    font-style: black;
     font-weight: 500;
     display: inline-block;
-    vertical-align: right;
     padding: 0 10px;
     letter-spacing: 1px;
     font-size: 14px;
@@ -59,7 +57,7 @@ h4{
     font-family: playfair display,serif;
     font-size: 17px;
     margin: 0 0 10px;
-    font-weight: 550;
+    font-weight: 600;
     line-height: 1.4;
     letter-spacing: -.01em;
     color:#dddddd;
@@ -78,7 +76,7 @@ a{
 
 /* PRESENTATION EN IMAGES */
 #presentation{
-    background-image: url("../pictures/Slider%201.jpg");
+    background-image: url("../pictures/Slider_1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: 0 0;
@@ -88,7 +86,7 @@ a{
 }
 
 .chochin {
-    box-shadow: 10px 10px 0px #FFEAE0; 
+    box-shadow: 10px 10px 0 #FFEAE0;
     width: 100%;
     margin-bottom: 30%;
 }
@@ -149,7 +147,7 @@ p {
     padding: 2.5% 9.5%;
     border: 2px solid #968B7F;
     background-color: #ffffff;
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 .btn-primary:hover{
@@ -160,14 +158,14 @@ p {
     font-style: normal;
     border: 2px solid #FFCCB7;
     background-color: #FFCCB7;
-    border-radius: 0px;
+    border-radius: 0;
 }
 
 .text-brown{
     color: #968B7F;
 }
 
-#Patisseries{
+#patisseries{
     background-color: #E5E2DF;
     width: 100%;
     padding: 6% 0 10% 0;
@@ -267,7 +265,7 @@ p {
 .nav-icons li a{
     font-size: 12px;
     text-transform: uppercase;
-    margin-left: 0px;
+    margin-left: 0;
     padding: 0;
 }
 
