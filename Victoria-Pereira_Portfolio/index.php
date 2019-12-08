@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <title>Accueil</title>
-    <?php include("includes/head.php"); ?>
+    <?php include("head.php"); ?>
 </head>
 <body>
 <div>
@@ -180,7 +180,7 @@
     <!--/SECTION COPYRIGHT-->
 </div>
 <!--IMPORTS JS-->
-<?php include("includes/script.php") ?>
+<?php include("script.php") ?>
 <!--/IMPORTS JS-->
 </body>
 </html>
