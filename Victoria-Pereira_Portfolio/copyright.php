@@ -1,15 +1,8 @@
-<footer class="footer-section p-4">
+<footer class="background-color-spring-wood p-4">
     <div class="container">
         <div class="row">
             <div class="col-8">
-                <div class="copyright">© 2018 Barber Shop Powered by DynamicLayers</div>
-            </div>
-            <div class="col-4">
-                <ul class="nav">
-                    <li class="nav-item"><a class="nav-link" href="#">Orders</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Terms</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Report Problem</a></li>
-                </ul>
+                <div class="copyright-text-color-kabul"><span><i class="far fa-copyright fa-2x align-middle pr-3"></i></span><span class="align-middle">Copyright Patisserie S. 2020</span></div>
             </div>
         </div>
     </div>
