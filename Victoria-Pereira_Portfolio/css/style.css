@@ -4,11 +4,20 @@
 /*--------------------------------------------------------------//
 //                          Couleur                            //
 //------------------------------------------------------------*/
+.background-color-chablis {
+  background-color: #FFEAE0; }
+
 .background-color-heathered-grey {
   background-color: #968B7F; }
 
 .background-color-spring-wood {
   background-color: #E5E2DF; }
+
+.color-kabul {
+  color: #6F5F51; }
+
+.color-heathered-grey {
+  color: #968B7F; }
 
 .color-white {
   color: #FFFFFF; }
@@ -44,7 +53,11 @@ h1 {
   font-family: raleway, serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 34px; }
+  font-size: 27px;
+  letter-spacing: 17.25px;
+  color: #968B7F;
+  text-transform: uppercase;
+  opacity: 1; }
 
 h2 {
   font-family: raleway, sans-serif;
@@ -65,6 +78,31 @@ h5 {
 /* TEXTE */
 a {
   color: white; }
+
+.section-titre {
+  padding: 60px; }
+
+.patisserie-nav {
+  display: inline-block;
+  list-style: none;
+  padding-inline-start: 0px;
+  border-bottom: 0.1px solid;
+  border-bottom-color: #707070; }
+
+.patisserie-nav-item {
+  display: inline-block;
+  color: #6F5F51; }
+
+.patisserie-nav-link {
+  font-family: Raleway, serif;
+  font-size: 27px;
+  font-weight: lighter;
+  color: #6F5F51;
+  padding: 0.5em; }
+
+.patisserie-nav-link:hover {
+  color: #FFCCB7;
+  font-weight: bold; }
 
 /* PRESENTATION EN IMAGES */
 #presentation {

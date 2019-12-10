@@ -17,6 +17,9 @@ $color-chablis : #FFEAE0;
 //                          Couleur                            //
 //------------------------------------------------------------*/
 
+.background-color-chablis{
+  background-color : $color-chablis;
+}
 .background-color-heathered-grey{
   background-color: $color-heathered-grey;
 }
@@ -25,9 +28,16 @@ $color-chablis : #FFEAE0;
 }
 
 
+.color-kabul{
+  color: $color-kabul;
+}
+.color-heathered-grey{
+  color: $color-heathered-grey;
+}
 .color-white{
   color: $color-white;
 }
+
 
 /* Navbar */
 header{
@@ -67,7 +77,11 @@ h1{
   font-family: raleway, serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 34px;
+  font-size: 27px;
+  letter-spacing: 17.25px;
+  color: $color-heathered-grey;
+  text-transform: uppercase;
+  opacity: 1;
 }
 
 h2{
@@ -95,6 +109,31 @@ a{
   color: white;
 }
 
+.section-titre{
+  padding: 60px;
+}
+.patisserie-nav
+{
+  display: inline-block;
+  list-style: none;
+  padding-inline-start: 0px;
+  border-bottom: 0.1px solid;
+  border-bottom-color: #707070;}
+.patisserie-nav-item{
+  display: inline-block;
+  color: $color-kabul;
+}
+.patisserie-nav-link{
+  font-family: Raleway, serif;
+  font-size:  27px;
+  font-weight: lighter;
+  color: $color-kabul;
+  padding: 0.5em;
+}
+.patisserie-nav-link:hover{
+  color: $color-apricot;
+  font-weight: bold;
+}
 /* PRESENTATION EN IMAGES */
 #presentation{
   background-image: url("../pictures/Slider_1.jpg");

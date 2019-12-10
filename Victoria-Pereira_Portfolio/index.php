@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+<?php $page = 'accueil'; ?>
 <head>
     <title>Accueil</title>
     <?php include("head.php"); ?>
@@ -7,35 +8,9 @@
 <body>
 <div>
     <!--NAVBAR-->
-    <header>
-        <div class="container">
-            <nav class="navbar navbar-expand-md navbar-dark">
-                <img class="navbar-brand"
-                     src="pictures/MJM-UI_PEREIRA-VICTORIA_Logotype-Simple-Iconographique-Noir.png">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul class="nav navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.php">Accueil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">A propos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        </div>
-    </header>
+    <?php include ("header.php")?>
     <!--/NAVBAR-->
+
     <!--PRESENTATION EN IMAGES-->
     <section id="presentation">
         <div>
