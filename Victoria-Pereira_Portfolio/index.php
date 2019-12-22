@@ -8,7 +8,7 @@
 <body>
 <div>
     <!--NAVBAR-->
-    <?php include ("header.php")?>
+    <?php include("header.php") ?>
     <!--/NAVBAR-->
 
     <!--PRESENTATION EN IMAGES-->
@@ -31,9 +31,9 @@
                     <div class="col-1">
                         <div class="rectangle"></div>
                     </div>
-                    <div class="col-6 text-left">
-                        <h1 class="h1-left text-brown">Entre culture et tradition</h1>
-                        <p class="p-left text-brown">S comme Satomi et Stanley Chan, couple à la ville comme dans le
+                    <div class="col-6">
+                        <h3 class="align-strip color-heathered-grey">Entre culture et tradition</h3>
+                        <p class="color-heathered-grey mb-5">S comme Satomi et Stanley Chan, couple à la ville comme dans le
                             boulot, deux jeunes japonais qui se sont rencontrés sous les meilleurs auspices gourmands
                             qui soient… dans la brigade de Robuchon à l’ouverture de La Grande Maison. Deux super pros
                             (elle en pâtisserie, lui en boulangerie) qui se sont frottés aux plus grands et ont eu envie
@@ -54,19 +54,19 @@
             <div class="container-sm">
                 <div class="row">
                     <div class="col-2">
-                        <img src="pictures/Gateaux.png"/>
+                        <img class="accueil-patisseries-img" src="pictures/Gateaux.png" alt="Gateaux"/>
                     </div>
                     <div class="col-1"></div>
                     <div class="col-2">
-                        <img src="pictures/Brunch.png"/>
+                        <img class="accueil-patisseries-img" src="pictures/Brunch.png"/>
                     </div>
                     <div class="col-1"></div>
                     <div class="col-2">
-                        <img src="pictures/Viennoiseries.png"/>
+                        <img class="accueil-patisseries-img" src="pictures/Viennoiseries.png"/>
                     </div>
                     <div class="col-1"></div>
                     <div class="col-2">
-                        <img src="pictures/Voyage.png"/>
+                        <img class="accueil-patisseries-img" src="pictures/Voyage.png"/>
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@
         <!--/SECTION Entre culture et tradition-->
     </div>
     <!--SECTION FOOTER-->
-    <?php include("footer.php");?>
+    <?php include("footer.php"); ?>
     <!--/SECTION FOOTER-->
     <!--SECTION COPYRIGHT-->
     <?php include("copyright.php"); ?>

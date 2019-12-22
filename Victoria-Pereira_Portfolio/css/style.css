@@ -50,9 +50,7 @@ header {
 
 /* Headings */
 h1 {
-  font-family: raleway, serif;
-  font-weight: 900;
-  font-style: normal;
+  font-family: Raleway-Bold;
   font-size: 27px;
   letter-spacing: 17.25px;
   color: #968B7F;
@@ -60,15 +58,17 @@ h1 {
   opacity: 1; }
 
 h2 {
-  font-family: raleway, sans-serif;
-  font-weight: 600;
-  font-style: normal;
+  font-family: Raleway-Bold;
   font-size: 20px;
   letter-spacing: 13px;
   text-transform: uppercase; }
 
+h3 {
+  font-family: Lora-Regular;
+  font-size: 35px; }
+
 h4 {
-  font: Bold 19px/26px Raleway; }
+  font-family: Raleway-Bold; }
 
 h5 {
   font-family: miller-headline, serif;
@@ -76,22 +76,41 @@ h5 {
   font-size: 20px; }
 
 /* TEXTE */
+p {
+  font-family: Lora-Regular;
+  font-size: 19px; }
+
 a {
   color: white; }
 
 .section-titre {
   padding: 60px; }
 
+/*-------------------------------------------------------------//
+//                          Accueil                            //
+//-------------------------------------------------------------*/
+.align-strip {
+  margin-top: 175px; }
+
+/*---------------------------------------------------------------------//
+//                          Les Patisseries                            //
+//---------------------------------------------------------------------*/
 .patisserie-nav {
   display: inline-block;
   list-style: none;
-  padding-inline-start: 0px;
+  padding-inline-start: 0;
   border-bottom: 0.1px solid;
   border-bottom-color: #707070; }
 
 .patisserie-nav-item {
   display: inline-block;
-  color: #6F5F51; }
+  color: #6F5F51;
+  border-bottom: 3px solid #707070;
+  margin-right: 2em; }
+
+.patisserie-nav-item:hover {
+  border-bottom: 3px solid #FFCCB7;
+  font-weight: bold; }
 
 .patisserie-nav-link {
   font-family: Raleway, serif;
@@ -103,6 +122,9 @@ a {
 .patisserie-nav-link:hover {
   color: #FFCCB7;
   font-weight: bold; }
+
+.patisserie-img {
+  padding: 1em; }
 
 /* PRESENTATION EN IMAGES */
 #presentation {
@@ -143,21 +165,6 @@ p {
   height: 3%;
   background: #feeae0;
   margin: 305% -20px; }
-
-.h1-left {
-  font-family: lora, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 27px;
-  margin-top: 33.8%; }
-
-.p-left {
-  font-family: lora, serif;
-  font-weight: 100;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 2.3em;
-  margin-bottom: 9%; }
 
 .btn-primary {
   text-transform: uppercase;
@@ -226,7 +233,7 @@ p {
 .footer-nav {
   display: inline-block;
   list-style: none;
-  padding-inline-start: 0px; }
+  padding-inline-start: 0; }
 
 .footer-nav-item {
   display: inline-block;

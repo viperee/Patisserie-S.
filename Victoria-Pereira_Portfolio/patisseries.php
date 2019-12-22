@@ -11,11 +11,9 @@
     <?php include("header.php") ?>
     <!--/NAVBAR-->
 
-    <section class="section-titre background-color-chablis">
-        <div>
-            <h1 class="text-center">Les pâtisseries</h1>
-        </div>
-    </section>
+    <!--TITRE-->
+    <?php include("sectiontitre.php") ?>
+    <!--/TITRE-->
 
     <section class="section-patisseries">
         <div class="container">
@@ -36,9 +34,43 @@
                     <li class="patisserie-nav-item">
                         <a class="patisserie-nav-link" href="#">Voyage</a>
                     </li>
-
                 </ul>
             </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="col-12">
+                        <img class="patisserie-img" src="pictures/gateau1.png">
+                    </div>
+                    <div class="col-12">
+                        <img class="patisserie-img" src="pictures/gateau2.png">
+                    </div>
+                    <div class="col-12">
+                        <img class="patisserie-img" src="pictures/gateau3.png">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="col-12">
+                        <img class="patisserie-img" src="pictures/gateau4.png">
+                    </div>
+                    <div class="col-12">
+                        <img class="patisserie-img" src="pictures/gateau5.png">
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="col-12">
+                        <img class="patisserie-img" src="pictures/gateau6.png">
+                    </div>
+                    <div class="col-12">
+                        <img class="patisserie-img" src="pictures/gateau7.png">
+                    </div>
+                    <div class="col-12">
+                        <img class="patisserie-img" src="pictures/gateau8.png">
+                    </div>
+                </div>
+            </div>
+
         </div>
     </section>
     <!--SECTION FOOTER-->

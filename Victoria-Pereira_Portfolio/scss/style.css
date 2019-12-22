@@ -1,50 +1,39 @@
-
-
 /*---------------------------------------------------------//
 //                          CSS                            //
 //---------------------------------------------------------*/
-
-$color-kabul : #6F5F51;
-$color-americano : #8B7F72;
-$color-heathered-grey : #968B7F;
-$color-silk : #B6AEA7;
-$color-spring-wood : #E5E2DF;
-$color-white : #FFFFFF;
-$color-apricot : #FFCCB7;
-$color-chablis : #FFEAE0;
-
 /*--------------------------------------------------------------//
 //                          Couleur                            //
 //------------------------------------------------------------*/
-
-.background-color-chablis{
-  background-color : $color-chablis;
-}
-.background-color-heathered-grey{
-  background-color: $color-heathered-grey;
-}
-.background-color-spring-wood{
-  background-color : $color-spring-wood;
+.background-color-chablis {
+  background-color: #FFEAE0;
 }
 
-
-.color-kabul{
-  color: $color-kabul;
-}
-.color-heathered-grey{
-  color: $color-heathered-grey;
-}
-.color-white{
-  color: $color-white;
+.background-color-heathered-grey {
+  background-color: #968B7F;
 }
 
+.background-color-spring-wood {
+  background-color: #E5E2DF;
+}
+
+.color-kabul {
+  color: #6F5F51;
+}
+
+.color-heathered-grey {
+  color: #968B7F;
+}
+
+.color-white {
+  color: #FFFFFF;
+}
 
 /* Navbar */
-header{
+header {
   background-color: #ffffff;
 }
 
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link {
   font-family: avenir, sans-serif;
   font-weight: 500;
   display: inline-block;
@@ -57,112 +46,114 @@ header{
   color: #6F5F51;
 }
 
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link:hover{
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link:hover {
   color: #FFCCB7;
   font-weight: 900;
 }
 
-.navbar-nav{
+.navbar-nav {
   text-align: right;
 }
 
-.navbar-brand{
+.navbar-brand {
   width: 5%;
 }
 
-
 /* Headings */
-
-h1{
+h1 {
   font-family: Raleway-Bold;
   font-size: 27px;
   letter-spacing: 17.25px;
-  color: $color-heathered-grey;
+  color: #968B7F;
   text-transform: uppercase;
   opacity: 1;
 }
 
-h2{
+h2 {
   font-family: Raleway-Bold;
   font-size: 20px;
   letter-spacing: 13px;
   text-transform: uppercase;
 }
 
-h3{
+h3 {
   font-family: Lora-Regular;
   font-size: 35px;
 }
 
-
-h4{
+h4 {
   font-family: Raleway-Bold;
 }
 
-h5{
+h5 {
   font-family: miller-headline, serif;
   font-style: normal;
   font-size: 20px;
 }
 
 /* TEXTE */
-p{
+p {
   font-family: Lora-Regular;
   font-size: 19px;
 }
-a{
+
+a {
   color: white;
 }
 
-.section-titre{
+.section-titre {
   padding: 60px;
 }
+
 /*-------------------------------------------------------------//
 //                          Accueil                            //
 //-------------------------------------------------------------*/
-.align-strip{
+.align-strip {
   margin-top: 175px;
 }
 
 /*---------------------------------------------------------------------//
 //                          Les Patisseries                            //
 //---------------------------------------------------------------------*/
-.patisserie-nav
-{
+.patisserie-nav {
   display: inline-block;
   list-style: none;
   padding-inline-start: 0;
   border-bottom: 0.1px solid;
-  border-bottom-color: #707070;}
+  border-bottom-color: #707070;
+}
 
-.patisserie-nav-item{
+.patisserie-nav-item {
   display: inline-block;
-  color: $color-kabul;
+  color: #6F5F51;
   border-bottom: 3px solid #707070;
   margin-right: 2em;
 }
 
-.patisserie-nav-item:hover{
-  border-bottom: 3px solid $color-apricot;
+.patisserie-nav-item:hover {
+  border-bottom: 3px solid #FFCCB7;
   font-weight: bold;
 }
 
-.patisserie-nav-link{
+.patisserie-nav-link {
   font-family: Raleway, serif;
-  font-size:  27px;
+  font-size: 27px;
   font-weight: lighter;
-  color: $color-kabul;
+  color: #6F5F51;
   padding: 0.5em;
 }
-.patisserie-nav-link:hover{
-  color: $color-apricot;
+
+.patisserie-nav-link:hover {
+  color: #FFCCB7;
   font-weight: bold;
 }
-.patisserie-img{
+
+.patisserie-img {
   padding: 1em;
 }
+
 /* PRESENTATION EN IMAGES */
-#presentation{
+#presentation {
   background-image: url("../pictures/Slider_1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -178,12 +169,12 @@ a{
   margin-bottom: 30%;
 }
 
-.logo-accueil{
+.logo-accueil {
   width: 20%;
   margin-bottom: 10%;
 }
 
-.ancre-bas{
+.ancre-bas {
   width: 40px;
 }
 
@@ -195,23 +186,23 @@ p {
   margin: 11% 10% 0 0;
 }
 
-.rectangle{
+.rectangle {
   width: 530%;
   height: 3%;
   background: #feeae0;
   margin: 305% -20px;
 }
 
-.rectangle2{
+.rectangle2 {
   width: 335%;
   height: 3%;
   background: #feeae0;
   margin: 305% -20px;
 }
 
-.btn-primary{
+.btn-primary {
   text-transform: uppercase;
-  font-family: raleway ,sans-serif;
+  font-family: raleway, sans-serif;
   font-size: 12px;
   font-style: normal;
   padding: 2.5% 9.5%;
@@ -220,9 +211,9 @@ p {
   border-radius: 0;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   text-transform: uppercase;
-  font-family: raleway ,sans-serif;
+  font-family: raleway, sans-serif;
   font-size: 12px;
   font-weight: 700;
   font-style: normal;
@@ -231,94 +222,96 @@ p {
   border-radius: 0;
 }
 
-.text-brown{
+.text-brown {
   color: #968B7F;
 }
 
-#patisseries{
+#patisseries {
   background-color: #E5E2DF;
   width: 100%;
   padding: 6% 0 10% 0;
 }
 
-.container-sm{
+.container-sm {
   margin-top: 7%;
 }
 
-.sponsor{
+.sponsor {
   width: 100%;
 }
 
-.nav{
+.nav {
   display: block;
   text-align: right;
 }
 
-.nav li{
+.nav li {
   display: inline-block;
 }
 
-.nav li a{
+.nav li a {
   font-size: 12px;
   text-transform: uppercase;
   margin-left: 20px;
   padding: 0;
 }
 
-.nav-link{
+.nav-link {
   color: #ddd;
   font-size: 12px;
   text-transform: uppercase;
   margin: 0 20px 0 0;
 }
 
-.nav-icons{
+.nav-icons {
   display: block;
   text-align: left;
 }
 
-.align-left{
-  font-family: open sans,sans-serif;
+.align-left {
+  font-family: open sans, sans-serif;
   font-size: 14px;
 }
-
-
-
-
 
 /*-------------------------------------------------------------//
 //                          Footer                            //
 //-----------------------------------------------------------*/
-.footer-nav{
+.footer-nav {
   display: inline-block;
   list-style: none;
   padding-inline-start: 0;
 }
-.footer-nav-item{
+
+.footer-nav-item {
   display: inline-block;
   margin-right: 1em;
 }
-.footer-typo{
+
+.footer-typo {
   font-family: Raleway, serif;
   font-weight: lighter;
   font-size: 17px;
 }
-.footer-logo{
+
+.footer-logo {
   width: 192px;
   height: 215px;
 }
-.footer-custom-container{
+
+.footer-custom-container {
   max-width: 82%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: 5%;
   margin-left: 9%;
 }
-.footer-social-icons{
+
+.footer-social-icons {
   width: 27px;
   height: 27px;
 }
-.footer-company-infos-icons{
+
+.footer-company-infos-icons {
   width: 22.85px;
   height: 22.85px;
 }
@@ -326,14 +319,15 @@ p {
 /*----------------------------------------------------------------//
 //                          Copyright                            //
 //--------------------------------------------------------------*/
-
-.copyright-text-color-kabul{
-  color: $color-kabul;
+.copyright-text-color-kabul {
+  color: #6F5F51;
   font-family: Arial, sans-serif;
   font-size: 19px;
 }
-.copyright-icons{
+
+.copyright-icons {
   width: 49px;
   height: 49px;
-
 }
+
+/*# sourceMappingURL=style.css.map */

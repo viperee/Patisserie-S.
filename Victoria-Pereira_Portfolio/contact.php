@@ -11,9 +11,14 @@
     <?php include ("header.php")?>
     <!--/NAVBAR-->
 
+    <!--TITRE-->
+    <?php include("sectiontitre.php") ?>
+    <!--/TITRE-->
+
     <!--SECTION FOOTER-->
     <?php include("footer.php");?>
     <!--/SECTION FOOTER-->
+
     <!--SECTION COPYRIGHT-->
     <?php include("copyright.php"); ?>
     <!--/SECTION COPYRIGHT-->
