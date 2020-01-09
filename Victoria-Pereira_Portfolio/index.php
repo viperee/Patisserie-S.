@@ -33,7 +33,7 @@
                     </div>
                     <div class="col-6">
                         <h3 class="align-strip color-heathered-grey">Entre culture et tradition</h3>
-                        <p class="color-heathered-grey mb-5">S comme Satomi et Stanley Chan, couple à la ville comme dans le
+                        <p class="color-heathered-grey text-block mb-5">S comme Satomi et Stanley Chan, couple à la ville comme dans le
                             boulot, deux jeunes japonais qui se sont rencontrés sous les meilleurs auspices gourmands
                             qui soient… dans la brigade de Robuchon à l’ouverture de La Grande Maison. Deux super pros
                             (elle en pâtisserie, lui en boulangerie) qui se sont frottés aux plus grands et ont eu envie
@@ -86,7 +86,7 @@
                     </div>
                     <div class="col-6 text-left">
                         <h1 class="h1-left text-brown">Oui, chefs!</h1>
-                        <p class="p-left text-brown">Le parcours respectif de Satomi et Stanley Chan est celui de
+                        <p class="p-left text-brown text-block">Le parcours respectif de Satomi et Stanley Chan est celui de
                             l’excellence auprès de Pierre Hermé, Joël Robuchon et Yannick Alléno. En 2014, ils arrivent
                             à Bordeaux pour l’ouvertur de La Grande Maison avec Joël Robuchon. Satomi sera la chef
                             pâtissière de ce restaurant et Stanley le chef boulanger.

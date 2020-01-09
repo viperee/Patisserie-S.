@@ -102,6 +102,64 @@ a {
   color: white;
 }
 
+/* IMAGE */
+.box:hover {
+  box-shadow: 20px 20px 0 #FFCCB7;
+  transform: translate(-20px, -20px);
+  opacity: 1;
+  -webkit-animation: flash 0.4s;
+  animation: flash 0.4s;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.image-text {
+  font-family: Raleway-Bold;
+  font-size: 29px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+  letter-spacing: 14.12px;
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+  /* Make the width of box same as image */
+}
+
+.box {
+  position: relative;
+  display: inline-block;
+}
+
+.image-text-centered {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 42%;
+  /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 60%;
+  /* Set the width of the positioned div */
+}
+
 .section-titre {
   padding: 60px;
 }
@@ -183,7 +241,7 @@ a {
   margin: -4% 13% 0;
 }
 
-p {
+.text-block {
   margin: 11% 10% 0 0;
   color: #6F5F51;
 }
@@ -272,6 +330,31 @@ p {
 .align-left {
   font-family: open sans, sans-serif;
   font-size: 14px;
+}
+
+/*-----------------------------------------------------------------------//
+//                          A propos                                     //
+//-----------------------------------------------------------------------*/
+.chan-style {
+  font-family: Sacramento-Regular;
+  font-size: 48px;
+  color: #FFCCB7;
+  margin: 0;
+}
+
+.section-chiffre-cle {
+  padding: 70px;
+  color: #968B7F;
+  background-color: #E5E2DF;
+}
+.section-chiffre-cle p {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 70px;
+}
+.section-chiffre-cle span {
+  font-family: Arial;
+  font-size: 22px;
 }
 
 /*---------------------------------------------------------------------//
