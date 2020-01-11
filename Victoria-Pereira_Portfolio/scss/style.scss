@@ -17,7 +17,9 @@ $color-input-placeholder : #D0CDC6;
 /*--------------------------------------------------------------//
 //                          Couleur                            //
 //------------------------------------------------------------*/
-
+.background-color-white{
+  background-color: $color-white;
+}
 .background-color-chablis{
   background-color : $color-chablis;
 }
@@ -362,6 +364,18 @@ a{
     font-size: 22px;
   }
 }
+
+.carousel-indicators-custom{
+  background-clip: border-box !important;
+  border-top: 12px solid transparent !important;
+  border-bottom: 13px solid transparent !important;
+  background-color: $color-apricot !important;
+  border-radius: 12px;
+}
+
+.carousel-indicators-custom.active{
+  background-color: $color-americano !important;
+}
 /*---------------------------------------------------------------------//
 //                          Contact                                    //
 //---------------------------------------------------------------------*/
@@ -391,6 +405,22 @@ a{
 .form-control-contact::placeholder{
   color: $color-input-placeholder;
 }
+
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:40%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
 
 /*-------------------------------------------------------------//
 //                          Footer                            //

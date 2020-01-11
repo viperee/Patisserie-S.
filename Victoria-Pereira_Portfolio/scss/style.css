@@ -4,6 +4,10 @@
 /*--------------------------------------------------------------//
 //                          Couleur                            //
 //------------------------------------------------------------*/
+.background-color-white {
+  background-color: #FFFFFF;
+}
+
 .background-color-chablis {
   background-color: #FFEAE0;
 }
@@ -357,6 +361,18 @@ a {
   font-size: 22px;
 }
 
+.carousel-indicators-custom {
+  background-clip: border-box !important;
+  border-top: 12px solid transparent !important;
+  border-bottom: 13px solid transparent !important;
+  background-color: #FFCCB7 !important;
+  border-radius: 12px;
+}
+
+.carousel-indicators-custom.active {
+  background-color: #8B7F72 !important;
+}
+
 /*---------------------------------------------------------------------//
 //                          Contact                                    //
 //---------------------------------------------------------------------*/
@@ -386,6 +402,21 @@ a {
 
 .form-control-contact::placeholder {
   color: #D0CDC6;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 40%;
+  position: relative;
+  height: 0;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 
 /*-------------------------------------------------------------//
