@@ -110,6 +110,10 @@ a {
   color: white;
 }
 
+.w-80 {
+  width: 80% !important;
+}
+
 /* IMAGE */
 .box:hover {
   box-shadow: 20px 20px 0 #FFCCB7;
@@ -409,7 +413,6 @@ a {
 .apropos-p {
   font-family: Raleway-Medium;
   color: #968B7F;
-  text-transform: capitalize;
   font-size: 22px;
 }
 
