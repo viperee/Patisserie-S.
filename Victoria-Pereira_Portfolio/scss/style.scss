@@ -40,7 +40,9 @@ $color-input-placeholder : #D0CDC6;
 .color-white{
   color: $color-white;
 }
-
+.color-americano{
+  color: $color-americano;
+}
 
 /* Navbar */
 header{
@@ -151,22 +153,42 @@ a{
   opacity: 1;
   letter-spacing: 14.12px;
 }
+
+.image-text-header{
+  font-family: Raleway-Bold;
+  font-size: 44px;
+  color: $color-white;
+  text-transform: uppercase;
+  opacity: 1;
+}
 .box{
+   position: relative;
+   display: inline-block; /* Make the width of box same as image */
+}
+
+.box-no-hover{
   position: relative;
   display: inline-block; /* Make the width of box same as image */
 }
 
-.box {
-    position: relative;
-    display: inline-block;
-}
 .image-text-centered{
+   position: absolute;
+   z-index: 999;
+   margin: 0 auto;
+   left: 0;
+   right: 0;
+   top: 42%; /* Adjust this value to move the positioned div up and down */
+   text-align: center;
+   width: 60%; /* Set the width of the positioned div */
+ }
+
+.image-text-centered-bottom{
   position: absolute;
   z-index: 999;
   margin: 0 auto;
   left: 0;
   right: 0;
-  top: 42%; /* Adjust this value to move the positioned div up and down */
+  top: 80%; /* Adjust this value to move the positioned div up and down */
   text-align: center;
   width: 60%; /* Set the width of the positioned div */
 }
@@ -375,6 +397,31 @@ a{
 
 .carousel-indicators-custom.active{
   background-color: $color-americano !important;
+}
+
+.apropos-h3{
+  font-family: Raleway-Bold;
+  color: $color-heathered-grey;
+  text-transform: uppercase;
+  font-size: 44px;
+}
+
+.apropos-p{
+  font-family: Raleway-Medium;
+  color: $color-heathered-grey;
+  text-transform: capitalize;
+  font-size: 22px;
+}
+
+.apropos-title {
+  margin-top: 3em;
+}
+
+.apropos-rectangle{
+  width: 455%;
+  height: 2.7%;
+  background: #feeae0;
+  margin: 100% -20px;
 }
 /*---------------------------------------------------------------------//
 //                          Contact                                    //

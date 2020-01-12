@@ -32,20 +32,26 @@
         <div class="row mt-5">
             <div class="offset-2 col-3">
                 <div class="box">
-                    <img class="hover-style" src="pictures/gateau10.png">
-                    <div class="image-text-centered"><p class="image-text">La pâtisserie</p></div>
+                    <a href="lapatisserie.php">
+                        <img class="hover-style" src="pictures/gateau10.png">
+                        <div class="image-text-centered"><p class="image-text">La<br> pâtisserie</p></div>
+                    </a>
                 </div>
             </div>
             <div class="col-3">
                 <div class="box">
-                    <img class="hover-style" src="pictures/gateau9.png">
-                    <div class="image-text-centered"><p class="image-text">La Culture Japonaise</p></div>
+                    <a href="laculturejaponaisse.php">
+                        <img class="hover-style" src="pictures/gateau9.png">
+                        <div class="image-text-centered"><p class="image-text">La Culture Japonaise</p></div>
+                    </a>
                 </div>
             </div>
             <div class="col-3">
                 <div class="box">
-                    <img class="hover-style" src="pictures/chefs-small.png">
-                    <div class="image-text-centered"><p class="image-text">Les Chefs</p></div>
+                    <a href="leschefs.php">
+                        <img class="hover-style" src="pictures/chefs-small.png">
+                        <div class="image-text-centered"><p class="image-text">Les Chefs</p></div>
+                    </a>
                 </div>
             </div>
         </div>
