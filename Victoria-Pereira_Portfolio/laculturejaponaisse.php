@@ -43,7 +43,7 @@
                         Japon, au musée des Arts décoratifs et du Design à Bordeaux, retrouvez le gâteau chôchin à la Pâtisserie S.</p>
                 </div>
                 <div class="col-6">
-                    <img src="pictures/culture_japonaise/patisserie1.png">
+                    <img class="box-shadow-left" src="pictures/culture_japonaise/patisserie1.png">
                 </div>
             </div>
         </div>

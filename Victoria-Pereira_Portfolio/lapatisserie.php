@@ -44,7 +44,7 @@
                         le mois prochain.</p>
                 </div>
                 <div class="col-6">
-                    <img src="pictures/patisseries/patisserie1.png">
+                    <img class="box-shadow-left" src="pictures/patisseries/patisserie1.png">
                 </div>
             </div>
         </div>

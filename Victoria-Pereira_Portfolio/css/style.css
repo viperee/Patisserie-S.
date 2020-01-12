@@ -220,6 +220,10 @@ a {
   width: 100%;
   margin-bottom: 30%; }
 
+.box-shadow-left {
+  box-shadow: -10px 10px 0 #FFEAE0;
+  margin-bottom: 5%; }
+
 .logo-accueil {
   width: 20%;
   margin-bottom: 10%; }

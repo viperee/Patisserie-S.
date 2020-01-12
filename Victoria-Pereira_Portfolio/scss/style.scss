@@ -255,9 +255,14 @@ a{
 }
 
 .chochin {
-  box-shadow: 10px 10px 0 #FFEAE0;
+  box-shadow: 10px 10px 0 $color-chablis;
   width: 100%;
   margin-bottom: 30%;
+}
+
+.box-shadow-left {
+  box-shadow: -10px 10px 0 $color-chablis;
+  margin-bottom: 5%;
 }
 
 .logo-accueil{
