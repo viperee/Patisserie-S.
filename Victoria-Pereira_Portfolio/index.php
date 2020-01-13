@@ -38,7 +38,7 @@
                             qui soient… dans la brigade de Robuchon à l’ouverture de La Grande Maison. Deux super pros
                             (elle en pâtisserie, lui en boulangerie) qui se sont frottés aux plus grands et ont eu envie
                             de voler de leurs propres ailes.</p>
-                        <button type="button" class="btn btn-primary btn-lg text-brown">En savoir plus</button>
+                        <button type="button" class="btn btn-primary btn-lg button-raleway-regular-style color-heathered-grey">En savoir plus</button>
                     </div>
                 </div>
             </div>
@@ -49,7 +49,7 @@
     <!--SECTION Patisseries-->
     <section id="patisseries">
         <div class="container">
-            <h2 class="patisserie text-center text-brown">Les Pâtisseries
+            <h2 class="patisserie text-center color-heathered-grey">Les Pâtisseries
             </h2>
             <div class="container-sm">
                 <div class="row">
@@ -84,15 +84,17 @@
                     <div class="col-1">
                         <div class="rectangle2"></div>
                     </div>
-                    <div class="col-6 text-left">
-                        <h1 class="h1-left text-brown">Oui, chefs!</h1>
-                        <p class="p-left text-brown text-block">Le parcours respectif de Satomi et Stanley Chan est celui de
+                    <div class="col-6 padding-top-text-block">
+                        <h3 class="color-heathered-grey">Oui, Chef!</h3>
+                        <p class="p-left color-heathered-grey text-block pb-1">Le parcours respectif de Satomi et Stanley Chan est celui de
                             l’excellence auprès de Pierre Hermé, Joël Robuchon et Yannick Alléno. En 2014, ils arrivent
                             à Bordeaux pour l’ouvertur de La Grande Maison avec Joël Robuchon. Satomi sera la chef
                             pâtissière de ce restaurant et Stanley le chef boulanger.
                             <br/>En 2017, ils décident d’ouvrir leur propre pâtisserie salon de thé, au coeur de
                             Bordeaux, ville pour laquelle ils ont eu un véritable coups de coeur.</p>
-                        <button type="button" class="btn btn-primary btn-lg text-brown">Voir les chefs</button>
+                        <p class="sacramento-style">Satomi & Stanley</p>
+                        <p class="color-americano pb-2">Pâtissière & Boulanger</p>
+                        <button type="button" class="btn btn-primary btn-lg button-raleway-regular-style color-heathered-grey">Voir les chefs</button>
                     </div>
                 </div>
             </div>

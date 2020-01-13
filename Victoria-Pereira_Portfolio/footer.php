@@ -18,13 +18,13 @@
             </div>
             <div class="col-3 pt-5">
                 <h4 class="color-white">HORAIRES D'OUVERTURE</h4>
-                <p class="footer-typo color-white mt-4">Lundi-Mardi 11h - 19h<br>
+                <p class="raleway-light-style color-white mt-4">Lundi-Mardi 11h - 19h<br>
                     Jeudi-Vendredi 11h - 19h<br>
                     Samedi 10h - 19h<br>
                     Dimanche 10h - 13h<br>
                     (fermé le mercredi)</p>
             </div>
-            <div class="col-3 pl-5 pt-5 footer-typo">
+            <div class="col-3 pl-5 pt-5 raleway-light-style">
                 <h4 class="color-white">NOUS CONTACTER</h4>
                 <div class="color-white mt-4 mb-1">
                     <span><img class="footer-company-infos-icons" src="icons/call.svg"></span><span class="align-middle ml-2">05 56 06 94 54</span>
@@ -41,7 +41,7 @@
             </div>
             <div class="col-3 pl-5 pt-5">
                 <h4 class="color-white">NOUS RENDRE VISITE</h4>
-                <p class="footer-typo color-white mb-5">Tram Ligne A<br>Bus A<br>Bus 24</p>
+                <p class="raleway-light-style color-white mb-5">Tram Ligne A<br>Bus A<br>Bus 24</p>
                 <h4 class="color-white">MENTIONS LEGALES</h4>
             </div>
         </div>

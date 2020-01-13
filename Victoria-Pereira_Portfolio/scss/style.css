@@ -79,7 +79,7 @@ h1 {
 
 h2 {
   font-family: Raleway-Bold;
-  font-size: 20px;
+  font-size: 27px;
   letter-spacing: 13px;
   text-transform: uppercase;
 }
@@ -281,8 +281,12 @@ a {
 }
 
 .text-block {
-  margin: 11% 10% 0 0;
-  color: #6F5F51;
+  margin: 11% -8% 0 0;
+  color: #968B7F;
+}
+
+.padding-top-text-block {
+  padding-top: 15.8%;
 }
 
 .rectangle {
@@ -312,16 +316,17 @@ a {
 
 .btn-primary:hover {
   text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 700;
-  font-style: normal;
+  font-size: 19px;
   border: 2px solid #FFCCB7;
   background-color: #FFCCB7;
   border-radius: 0;
+  padding: 2% 6.5%;
 }
 
-.text-brown {
-  color: #968B7F;
+.button-raleway-regular-style {
+  font-family: Raleway-Regular;
+  font-size: 19px;
+  padding: 1.5% 3.5%;
 }
 
 #patisseries {
@@ -374,7 +379,7 @@ a {
 /*-----------------------------------------------------------------------//
 //                          A propos                                     //
 //-----------------------------------------------------------------------*/
-.chan-style {
+.sacramento-style {
   font-family: Sacramento-Regular;
   font-size: 48px;
   color: #FFCCB7;
@@ -492,7 +497,7 @@ a {
   margin-right: 1em;
 }
 
-.footer-typo {
+.raleway-light-style {
   font-family: Raleway-Light;
   font-size: 17px;
 }

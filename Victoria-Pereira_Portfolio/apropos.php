@@ -20,7 +20,7 @@
             <div class="row">
                 <div class="col-6">
                     <h3 class="mb-0">Satomi & Stanley</h3>
-                    <p class="chan-style">Chan</p>
+                    <p class="sacramento-style">Chan</p>
                 </div>
                 <div class="col-6">
                     <p>Le parcours respectif de Satomi et Stanley Chan est celui de l’excellence auprès de Pierre Hermé, Joël Robuchon et Yannick Alléno. En 2014, ils arrivent à
