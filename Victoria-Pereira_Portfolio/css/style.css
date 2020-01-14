@@ -54,6 +54,15 @@ header {
 .navbar-brand {
   width: 5%; }
 
+.modal-full {
+  min-width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%; }
+
+.modal-full .modal-content {
+  min-height: 800px; }
+
 /* Headings */
 h1 {
   font-family: Raleway-Bold;
@@ -191,6 +200,13 @@ a {
   border-bottom: 3px solid #FFCCB7;
   font-weight: bold; }
 
+.active-categorie {
+  border-bottom: 3px solid #FFCCB7; }
+
+.active-categorie a {
+  color: #FFCCB7;
+  font-weight: bold; }
+
 .patisserie-nav-link {
   font-family: Raleway-Light;
   font-size: 27px;
@@ -246,6 +262,51 @@ a {
   height: 3%;
   background: #feeae0;
   margin: 305% -20px; }
+
+.rectangle-modal {
+  width: 255%;
+  height: 3%;
+  background: #feeae0;
+  margin: 130% -20px; }
+
+.chochin-modal {
+  box-shadow: 20px 20px 0 #FFEAE0;
+  width: 100%;
+  margin-bottom: 30%; }
+
+.modal-custom-title {
+  font-family: Futura-Medium;
+  font-size: 29px;
+  text-transform: uppercase;
+  color: #968B7F;
+  padding-bottom: 55px; }
+
+.modal-padding-top {
+  padding-top: 20.4%; }
+
+.modal-presentation {
+  width: 51%; }
+
+.modal-carousel-control-prev {
+  width: 3%; }
+
+.modal-carousel-control-prev-icon {
+  color: #B6AEA7;
+  font-size: 60px; }
+
+.modal-carousel-control-prev-icon:hover {
+  color: #E5E2DF; }
+
+.modal-carousel-control-next {
+  width: 3%; }
+
+.modal-carousel-control-next-icon {
+  color: #B6AEA7;
+  font-size: 60px; }
+
+.modal-carousel-control-next-icon:hover {
+  color: #E5E2DF;
+  font-size: 60px; }
 
 .rectangle2 {
   width: 335%;

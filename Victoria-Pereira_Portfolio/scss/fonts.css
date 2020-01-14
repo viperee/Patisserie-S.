@@ -7,6 +7,10 @@
   src: url("../fonts/Raleway-Medium.ttf");
 }
 @font-face {
+  font-family: Futura-Medium;
+  src: url("../fonts/Futura-Medium.ttf");
+}
+@font-face {
   font-family: Raleway-Bold;
   src: url("../fonts/Raleway-Bold.ttf");
 }
