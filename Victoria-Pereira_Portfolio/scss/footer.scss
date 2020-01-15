@@ -1,5 +1,5 @@
 @import "fonts.scss";
-@import "style.scss";
+@import "colors.scss";
 
 /*-------------------------------------------------------------//
 //                          Footer                            //
@@ -31,4 +31,8 @@
 .footer-company-infos-icons{
   width: 22.85px;
   height: 22.85px;
+}
+.raleway-light-style{
+  font-family: Raleway-Light;
+  font-size: 17px;
 }

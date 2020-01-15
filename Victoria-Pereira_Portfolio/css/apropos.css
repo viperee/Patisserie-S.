@@ -1,0 +1,173 @@
+@font-face {
+  font-family: Raleway-Light;
+  src: url("../fonts/Raleway-Light.ttf"); }
+
+@font-face {
+  font-family: Raleway-Medium;
+  src: url("../fonts/Raleway-Medium.ttf"); }
+
+@font-face {
+  font-family: Futura-Medium;
+  src: url("../fonts/Futura-Medium.ttf"); }
+
+@font-face {
+  font-family: Raleway-Bold;
+  src: url("../fonts/Raleway-Bold.ttf"); }
+
+@font-face {
+  font-family: Lora-Regular;
+  src: url("../fonts/Lora-Regular.ttf"); }
+
+@font-face {
+  font-family: Sacramento-Regular;
+  src: url("../fonts/Sacramento-Regular.ttf"); }
+
+@font-face {
+  font-family: Avenir-Heavy;
+  src: url("../fonts/Avenir-Heavy.ttf"); }
+
+/*--------------------------------------------------------------//
+//                          Couleur                            //
+//------------------------------------------------------------*/
+.background-color-white {
+  background-color: #FFFFFF; }
+
+.background-color-chablis {
+  background-color: #FFEAE0; }
+
+.background-color-heathered-grey {
+  background-color: #968B7F; }
+
+.background-color-spring-wood {
+  background-color: #E5E2DF; }
+
+.color-kabul {
+  color: #6F5F51; }
+
+.color-heathered-grey {
+  color: #968B7F; }
+
+.color-white {
+  color: #FFFFFF; }
+
+.color-americano {
+  color: #8B7F72; }
+
+/*-----------------------------------------------------------------------//
+//                          A propos                                     //
+//-----------------------------------------------------------------------*/
+.sacramento-style {
+  font-family: Sacramento-Regular;
+  font-size: 48px;
+  color: #FFCCB7;
+  margin: 0; }
+
+.section-chiffre-cle {
+  padding: 70px;
+  color: #968B7F;
+  background-color: #E5E2DF; }
+
+.section-chiffre-cle p {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 70px; }
+
+.section-chiffre-cle span {
+  font-family: Arial;
+  font-size: 22px; }
+
+.carousel-indicators-custom {
+  background-clip: border-box !important;
+  border-top: 12px solid transparent !important;
+  border-bottom: 13px solid transparent !important;
+  background-color: #FFCCB7 !important;
+  border-radius: 50%; }
+
+.carousel-indicators-custom.active {
+  background-color: #8B7F72 !important; }
+
+.apropos-carousel-control-prev {
+  width: 3%; }
+
+.apropos-carousel-control-prev-icon {
+  color: #B6AEA7;
+  font-size: 60px; }
+
+.apropos-carousel-control-prev-icon:hover {
+  color: #FFCCB7; }
+
+.apropos-carousel-control-next {
+  width: 3%; }
+
+.apropos-carousel-control-next-icon {
+  color: #B6AEA7;
+  font-size: 60px; }
+
+.apropos-carousel-control-next-icon:hover {
+  color: #FFCCB7; }
+
+.apropos-h3 {
+  font-family: Raleway-Bold;
+  color: #968B7F;
+  text-transform: uppercase;
+  font-size: 44px; }
+
+.apropos-p {
+  font-family: Raleway-Medium;
+  color: #968B7F;
+  font-size: 22px; }
+
+.apropos-title {
+  margin-top: 3em; }
+
+.apropos-rectangle {
+  width: 455%;
+  height: 2.7%;
+  background: #feeae0;
+  margin: 100% -20px; }
+
+.image-text {
+  font-family: Raleway-Bold;
+  font-size: 29px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  opacity: 1;
+  letter-spacing: 14.12px; }
+
+.box {
+  position: relative;
+  display: inline-block;
+  /* Make the width of box same as image */ }
+
+.box:hover {
+  box-shadow: 20px 20px 0 #FFCCB7;
+  transform: translate(-20px, -20px);
+  opacity: 1;
+  -webkit-animation: flash 0.4s;
+  animation: flash 0.4s; }
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: 0.4; }
+  100% {
+    opacity: 1; } }
+
+@keyframes flash {
+  0% {
+    opacity: 0.4; }
+  100% {
+    opacity: 1; } }
+
+.image-text-centered {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 42%;
+  /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 60%;
+  /* Set the width of the positioned div */ }
+
+/*# sourceMappingURL=apropos.css.map */

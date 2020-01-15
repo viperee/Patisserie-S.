@@ -1,3 +1,4 @@
+@import url(fonts.css);
 /*--------------------------------------------------------------//
 //                          Couleur                            //
 //------------------------------------------------------------*/
@@ -54,15 +55,6 @@ header {
 .navbar-brand {
   width: 5%; }
 
-.modal-full {
-  min-width: 100%;
-  padding-left: 5%;
-  padding-right: 5%;
-  padding-top: 5%; }
-
-.modal-full .modal-content {
-  min-height: 800px; }
-
 /* Headings */
 h1 {
   font-family: Raleway-Bold;
@@ -103,33 +95,6 @@ a {
   width: 80% !important; }
 
 /* IMAGE */
-.box:hover {
-  box-shadow: 20px 20px 0 #FFCCB7;
-  transform: translate(-20px, -20px);
-  opacity: 1;
-  -webkit-animation: flash 0.4s;
-  animation: flash 0.4s; }
-
-@-webkit-keyframes flash {
-  0% {
-    opacity: .4; }
-  100% {
-    opacity: 1; } }
-
-@keyframes flash {
-  0% {
-    opacity: .4; }
-  100% {
-    opacity: 1; } }
-
-.image-text {
-  font-family: Raleway-Bold;
-  font-size: 29px;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  opacity: 1;
-  letter-spacing: 14.12px; }
-
 .image-text-header {
   font-family: Raleway-Bold;
   font-size: 44px;
@@ -137,27 +102,10 @@ a {
   text-transform: uppercase;
   opacity: 1; }
 
-.box {
-  position: relative;
-  display: inline-block;
-  /* Make the width of box same as image */ }
-
 .box-no-hover {
   position: relative;
   display: inline-block;
   /* Make the width of box same as image */ }
-
-.image-text-centered {
-  position: absolute;
-  z-index: 999;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: 42%;
-  /* Adjust this value to move the positioned div up and down */
-  text-align: center;
-  width: 60%;
-  /* Set the width of the positioned div */ }
 
 .image-text-centered-bottom {
   position: absolute;
@@ -174,69 +122,9 @@ a {
 .section-titre {
   padding: 60px; }
 
-/*-------------------------------------------------------------//
-//                          Accueil                            //
-//-------------------------------------------------------------*/
-.align-strip {
-  margin-top: 175px; }
-
-.chochin {
-  box-shadow: 10px 10px 0 #FFEAE0;
-  width: 100%;
-  margin-bottom: 30%; }
-
 .box-shadow-left {
   box-shadow: -10px 10px 0 #FFEAE0;
   margin-bottom: 5%; }
-
-.logo-accueil {
-  width: 20%;
-  margin-bottom: 10%; }
-
-.ancre-bas {
-  width: 40px; }
-
-.main-raised {
-  margin: -4% 13% 0; }
-
-.text-block {
-  margin: 11% -8% 0 0;
-  color: #968B7F; }
-
-.padding-top-text-block {
-  padding-top: 15.8%; }
-
-.rectangle {
-  width: 530%;
-  height: 3%;
-  background: #feeae0;
-  margin: 305% -20px; }
-
-.apropos-carousel-control-prev {
-  width: 3%; }
-
-.apropos-carousel-control-prev-icon {
-  color: #B6AEA7;
-  font-size: 60px; }
-
-.apropos-carousel-control-prev-icon:hover {
-  color: #FFCCB7; }
-
-.apropos-carousel-control-next {
-  width: 3%; }
-
-.apropos-carousel-control-next-icon {
-  color: #B6AEA7;
-  font-size: 60px; }
-
-.apropos-carousel-control-next-icon:hover {
-  color: #FFCCB7; }
-
-.rectangle2 {
-  width: 335%;
-  height: 3%;
-  background: #feeae0;
-  margin: 305% -20px; }
 
 .btn-primary {
   text-transform: uppercase;
@@ -255,17 +143,6 @@ a {
   background-color: #FFCCB7;
   border-radius: 0;
   padding: 2% 6.5%; }
-
-.button-raleway-regular-style {
-  font-family: Raleway-Regular;
-  font-size: 19px;
-  padding: 1.5% 3.5%; }
-
-.container-sm {
-  margin-top: 7%; }
-
-.sponsor {
-  width: 100%; }
 
 .nav {
   display: block;
@@ -290,57 +167,4 @@ a {
   display: block;
   text-align: left; }
 
-/*-----------------------------------------------------------------------//
-//                          A propos                                     //
-//-----------------------------------------------------------------------*/
-.sacramento-style {
-  font-family: Sacramento-Regular;
-  font-size: 48px;
-  color: #FFCCB7;
-  margin: 0; }
-
-.section-chiffre-cle {
-  padding: 70px;
-  color: #968B7F;
-  background-color: #E5E2DF; }
-  .section-chiffre-cle p {
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 70px; }
-  .section-chiffre-cle span {
-    font-family: Arial;
-    font-size: 22px; }
-
-.carousel-indicators-custom {
-  background-clip: border-box !important;
-  border-top: 12px solid transparent !important;
-  border-bottom: 13px solid transparent !important;
-  background-color: #FFCCB7 !important;
-  border-radius: 50%; }
-
-.carousel-indicators-custom.active {
-  background-color: #8B7F72 !important; }
-
-.apropos-h3 {
-  font-family: Raleway-Bold;
-  color: #968B7F;
-  text-transform: uppercase;
-  font-size: 44px; }
-
-.apropos-p {
-  font-family: Raleway-Medium;
-  color: #968B7F;
-  font-size: 22px; }
-
-.apropos-title {
-  margin-top: 3em; }
-
-.apropos-rectangle {
-  width: 455%;
-  height: 2.7%;
-  background: #feeae0;
-  margin: 100% -20px; }
-
-.raleway-light-style {
-  font-family: Raleway-Light;
-  font-size: 17px; }
+/*# sourceMappingURL=style.css.map */

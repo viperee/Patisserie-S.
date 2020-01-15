@@ -1,0 +1,143 @@
+@import "fonts.scss";
+@import "colors.scss";
+
+/*-----------------------------------------------------------------------//
+//                          A propos                                     //
+//-----------------------------------------------------------------------*/
+
+.sacramento-style {
+  font-family: Sacramento-Regular;
+  font-size: 48px;
+  color: $color-apricot;
+  margin: 0;
+}
+
+.section-chiffre-cle {
+  padding: 70px;
+  color: $color-heathered-grey;
+  background-color: $color-spring-wood;
+
+  p {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 70px;
+  }
+
+  span {
+    font-family: Arial;
+    font-size: 22px;
+  }
+}
+
+.carousel-indicators-custom {
+  background-clip: border-box !important;
+  border-top: 12px solid transparent !important;
+  border-bottom: 13px solid transparent !important;
+  background-color: $color-apricot !important;
+  border-radius: 50%;
+}
+
+.carousel-indicators-custom.active {
+  background-color: $color-americano !important;
+}
+
+.apropos-carousel-control-prev {
+  width: 3%;
+}
+
+.apropos-carousel-control-prev-icon {
+  color: $color-silk;
+  font-size: 60px;
+}
+
+.apropos-carousel-control-prev-icon:hover {
+  color: $color-apricot;
+}
+
+.apropos-carousel-control-next {
+  width: 3%;
+}
+
+.apropos-carousel-control-next-icon {
+  color: #B6AEA7;
+  font-size: 60px;
+}
+
+.apropos-carousel-control-next-icon:hover {
+  color: $color-apricot;
+}
+
+.apropos-h3 {
+  font-family: Raleway-Bold;
+  color: $color-heathered-grey;
+  text-transform: uppercase;
+  font-size: 44px;
+}
+
+.apropos-p {
+  font-family: Raleway-Medium;
+  color: $color-heathered-grey;
+  font-size: 22px;
+}
+
+.apropos-title {
+  margin-top: 3em;
+}
+
+.apropos-rectangle {
+  width: 455%;
+  height: 2.7%;
+  background: #feeae0;
+  margin: 100% -20px;
+}
+
+.image-text {
+  font-family: Raleway-Bold;
+  font-size: 29px;
+  color: $color-white;
+  text-transform: uppercase;
+  opacity: 1;
+  letter-spacing: 14.12px;
+}
+
+.box {
+  position: relative;
+  display: inline-block; /* Make the width of box same as image */
+}
+
+.box:hover {
+  box-shadow: 20px 20px 0 $color-apricot;
+  transform: translate(-20px, -20px);
+  opacity: 1;
+  -webkit-animation: flash 0.4s;
+  animation: flash 0.4s;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.image-text-centered {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 42%; /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 60%; /* Set the width of the positioned div */
+}

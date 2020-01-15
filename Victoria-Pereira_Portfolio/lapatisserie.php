@@ -4,6 +4,7 @@
 <head>
     <title>La Pâtisserie</title>
     <?php include("head.php"); ?>
+    <link rel="stylesheet" type="text/css" href="css/apropos.css">
 </head>
 <body>
 <div>

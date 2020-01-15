@@ -4,6 +4,7 @@
 <head>
     <title>Accueil</title>
     <?php include("head.php"); ?>
+    <link rel="stylesheet" type="text/css" href="css/accueil.css">
 </head>
 <body>
 <div>
@@ -18,7 +19,6 @@
                  class="logo-accueil mx-auto d-block">
             <a href="#EntreCultureEtTradition"><img src="icons/bas.png" class="ancre-bas mx-auto d-block"></a>
         </div>
-
     </section>
     <div class="main main-raised">
         <!--SECTION Entre culture et tradition-->

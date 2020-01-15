@@ -1,59 +1,62 @@
 @import "fonts.scss";
-@import "style.scss";
+@import "colors.scss";
 
 /*---------------------------------------------------------------------//
 //                          Les Patisseries                            //
 //---------------------------------------------------------------------*/
-.align-left{
-  font-family: open sans,sans-serif;
+.align-left {
+  font-family: open sans, sans-serif;
   font-size: 14px;
 }
 
-.patisserie-nav
-{
+.patisserie-nav {
   display: inline-block;
   list-style: none;
   padding-inline-start: 0;
   border-bottom: 0.1px solid;
-  border-bottom-color: #707070;}
+  border-bottom-color: #707070;
+}
 
-.patisserie-nav-item{
+.patisserie-nav-item {
   display: inline-block;
   color: $color-kabul;
   border-bottom: 3px solid #707070;
   margin-right: 2em;
 }
 
-.patisserie-nav-item:hover{
+.patisserie-nav-item:hover {
   border-bottom: 3px solid $color-apricot;
   font-weight: bold;
 }
 
-.active-categorie{
+.active-categorie {
   border-bottom: 3px solid $color-apricot;
 }
-.active-categorie a{
+
+.active-categorie a {
   color: $color-apricot;
   font-weight: bold;
 }
-.patisserie-nav-link{
+
+.patisserie-nav-link {
   font-family: Raleway-Light;
-  font-size:  27px;
+  font-size: 27px;
   font-weight: lighter;
   color: $color-kabul;
   padding: 0.5em;
 }
-.patisserie-nav-link:hover{
+
+.patisserie-nav-link:hover {
   color: $color-apricot;
   font-weight: bold;
 }
 
-.patisserie-img{
+.patisserie-img {
   padding: 1em;
 }
 
 /** MODAL **/
-.rectangle-modal{
+.rectangle-modal {
   width: 255%;
   height: 3%;
   background: #feeae0;
@@ -65,32 +68,50 @@
   width: 100%;
   margin-bottom: 30%;
 }
-.modal-custom-title{
+
+.modal-full {
+  min-width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
+}
+
+.modal-full .modal-content {
+  min-height: 800px;
+}
+
+.modal-custom-title {
   font-family: Futura-Medium;
   font-size: 29px;
   text-transform: uppercase;
   color: $color-heathered-grey;
   padding-bottom: 55px;
 }
-.modal-padding-top{
+
+.modal-padding-top {
   padding-top: 20.4%;
 }
 
-.modal-presentation{
+.modal-presentation {
   width: 51%;
 }
+
 .modal-carousel-control-prev {
-  width: 3%; }
+  width: 3%;
+}
 
 .modal-carousel-control-prev-icon {
   color: $color-silk;
   font-size: 60px;
 }
+
 .modal-carousel-control-prev-icon:hover {
   color: $color-spring-wood;
 }
+
 .modal-carousel-control-next {
-  width: 3%; }
+  width: 3%;
+}
 
 .modal-carousel-control-next-icon {
   color: #B6AEA7;

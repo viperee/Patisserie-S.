@@ -54,42 +54,65 @@
   color: #8B7F72; }
 
 /*---------------------------------------------------------------------//
-//                          Contact                                    //
+//                          Accueil                                    //
 //---------------------------------------------------------------------*/
-.presentation-contact {
-  width: 556px; }
+.container-sm {
+  margin-top: 7%; }
 
-.paragraph-separator {
-  border-bottom: #6F5F51 solid 1px; }
-
-.btn-submit-contact {
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 700;
-  font-style: normal;
-  border: 2px solid #FFCCB7;
-  background-color: #FFCCB7;
-  border-radius: 0; }
-
-.form-control-contact {
-  border: 1px solid #6F5F51;
-  color: #8B7F72;
-  border-radius: 0; }
-
-.form-control-contact::placeholder {
-  color: #D0CDC6; }
-
-.map-responsive {
-  overflow: hidden;
-  padding-bottom: 40%;
-  position: relative;
-  height: 0; }
-
-.map-responsive iframe {
-  left: 0;
-  top: 0;
-  height: 100%;
+#presentation {
+  background-image: url("../pictures/Slider_1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 0;
+  background-size: cover;
   width: 100%;
-  position: absolute; }
+  padding: 12% 0 10% 0; }
 
-/*# sourceMappingURL=contact.css.map */
+#patisseries {
+  background-color: #E5E2DF;
+  width: 100%;
+  padding: 6% 0 10% 0; }
+
+.align-strip {
+  margin-top: 175px; }
+
+.chochin {
+  box-shadow: 10px 10px 0 #FFEAE0;
+  width: 100%;
+  margin-bottom: 30%; }
+
+.logo-accueil {
+  width: 20%;
+  margin-bottom: 10%; }
+
+.ancre-bas {
+  width: 40px; }
+
+.main-raised {
+  margin: -4% 13% 0; }
+
+.text-block {
+  margin: 11% -8% 0 0;
+  color: #968B7F; }
+
+.padding-top-text-block {
+  padding-top: 15.8%; }
+
+.rectangle {
+  width: 530%;
+  height: 3%;
+  background: #feeae0;
+  margin: 305% -20px; }
+
+.rectangle2 {
+  width: 335%;
+  height: 3%;
+  background: #feeae0;
+  margin: 305% -20px; }
+
+.button-raleway-regular-style {
+  font-family: Raleway-Regular;
+  font-size: 19px;
+  padding: 1.5% 3.5%; }
+
+/*# sourceMappingURL=accueil.css.map */

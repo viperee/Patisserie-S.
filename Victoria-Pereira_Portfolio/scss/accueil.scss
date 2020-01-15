@@ -1,0 +1,78 @@
+@import "fonts.scss";
+@import "colors.scss";
+
+/*---------------------------------------------------------------------//
+//                          Accueil                                    //
+//---------------------------------------------------------------------*/
+.container-sm {
+  margin-top: 7%;
+}
+
+#presentation {
+  background-image: url("../pictures/Slider_1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 0 0;
+  background-size: cover;
+  width: 100%;
+  padding: 12% 0 10% 0;
+}
+
+#patisseries {
+  background-color: #E5E2DF;
+  width: 100%;
+  padding: 6% 0 10% 0;
+}
+
+.align-strip {
+  margin-top: 175px;
+}
+
+.chochin {
+  box-shadow: 10px 10px 0 $color-chablis;
+  width: 100%;
+  margin-bottom: 30%;
+}
+
+.logo-accueil {
+  width: 20%;
+  margin-bottom: 10%;
+}
+
+.ancre-bas {
+  width: 40px;
+}
+
+.main-raised {
+  margin: -4% 13% 0;
+}
+
+.text-block {
+  margin: 11% -8% 0 0;
+  color: $color-heathered-grey;
+}
+
+.padding-top-text-block {
+  padding-top: 15.8%;
+}
+
+
+.rectangle {
+  width: 530%;
+  height: 3%;
+  background: #feeae0;
+  margin: 305% -20px;
+}
+
+.rectangle2 {
+  width: 335%;
+  height: 3%;
+  background: #feeae0;
+  margin: 305% -20px;
+}
+
+.button-raleway-regular-style {
+  font-family: Raleway-Regular;
+  font-size: 19px;
+  padding: 1.5% 3.5%;
+}
