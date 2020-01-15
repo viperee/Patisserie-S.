@@ -1,4 +1,4 @@
-<section class="section-titre background-color-chablis mb-5">
+<section class="section-titre background-color-chablis">
     <?php
     $titre = '';
     switch ($page) {

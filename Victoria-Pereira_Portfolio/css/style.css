@@ -33,6 +33,9 @@
 header {
   background-color: #FFFFFF; }
 
+.navbar {
+  height: 97px; }
+
 .navbar-dark .navbar-nav .nav-link {
   font-family: Avenir-Heavy;
   font-weight: 500;
@@ -53,7 +56,9 @@ header {
   text-align: right; }
 
 .navbar-brand {
-  width: 5%; }
+  width: 5%;
+  margin-left: 140px;
+  margin-right: 850px; }
 
 /* Headings */
 h1 {
@@ -120,7 +125,12 @@ a {
   /* Set the width of the positioned div */ }
 
 .section-titre {
-  padding: 60px; }
+  height: 200px;
+  margin-bottom: 104px; }
+
+.section-titre div h1 {
+  padding-top: 104px;
+  padding-bottom: 65px; }
 
 .box-shadow-left {
   box-shadow: -10px 10px 0 #FFEAE0;
@@ -141,8 +151,7 @@ a {
   font-size: 19px;
   border: 2px solid #FFCCB7;
   background-color: #FFCCB7;
-  border-radius: 0;
-  padding: 2% 6.5%; }
+  border-radius: 0; }
 
 .nav {
   display: block;
@@ -166,5 +175,8 @@ a {
 .nav-icons {
   display: block;
   text-align: left; }
+
+.nav-item {
+  padding: 0 56px 0 0; }
 
 /*# sourceMappingURL=style.css.map */

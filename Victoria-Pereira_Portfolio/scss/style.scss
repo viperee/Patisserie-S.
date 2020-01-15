@@ -10,7 +10,9 @@
 header{
   background-color: $color-white;
 }
-
+.navbar{
+  height: 97px;
+}
 .navbar-dark .navbar-nav .nav-link{
   font-family: Avenir-Heavy;
   font-weight: 500;
@@ -35,6 +37,8 @@ header{
 
 .navbar-brand{
   width: 5%;
+  margin-left: 140px;
+  margin-right: 850px;
 }
 
 /* Headings */
@@ -112,7 +116,13 @@ a{
 }
 
 .section-titre{
-  padding: 60px;
+  height: 200px;
+  margin-bottom: 104px;
+}
+
+.section-titre div h1{
+  padding-top: 104px;
+  padding-bottom: 65px;
 }
 
 .box-shadow-left {
@@ -138,7 +148,6 @@ a{
   border: 2px solid $color-apricot;
   background-color: $color-apricot;
   border-radius: 0;
-  padding: 2% 6.5%;
 }
 
 
@@ -170,3 +179,6 @@ a{
   text-align: left;
 }
 
+.nav-item{
+  padding: 0 56px 0 0;
+}

@@ -56,6 +56,9 @@
 /*----------------------------------------------------------------//
 //                          Copyright                            //
 //--------------------------------------------------------------*/
+.copyright {
+  margin-left: 262px; }
+
 .copyright-text-color-kabul {
   color: #6F5F51;
   font-family: Arial, sans-serif;

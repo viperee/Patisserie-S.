@@ -54,19 +54,39 @@
             <div class="container-sm">
                 <div class="row">
                     <div class="col-2">
-                        <img class="accueil-patisseries-img" src="pictures/Gateaux.png" alt="Gateaux"/>
+                        <a href="patisseries.php?categorie=gateaux">
+                            <div class="hover">
+                                <div class="image-text-centered"><p class="image-text">Gâteaux</p></div>
+                            </div>
+                            <img class="accueil-patisseries-img" src="pictures/Gateaux.png" alt="Gateaux"/>
+                        </a>
                     </div>
                     <div class="col-1"></div>
                     <div class="col-2">
-                        <img class="accueil-patisseries-img" src="pictures/Brunch.png"/>
+                        <a href="patisseries.php?categorie=viennoiseries">
+                            <div class="hover">
+                                <div class="image-text-centered"><p class="image-text">Viennoiseries</p></div>
+                            </div>
+                            <img class="accueil-patisseries-img" src="pictures/viennoiseries.png"/>
+                        </a>
                     </div>
                     <div class="col-1"></div>
                     <div class="col-2">
-                        <img class="accueil-patisseries-img" src="pictures/Viennoiseries.png"/>
+                        <a href="patisseries.php?categorie=brunch">
+                            <div class="hover">
+                                <div class="image-text-centered"><p class="image-text">Brunch</p></div>
+                            </div>
+                            <img class="accueil-patisseries-img" src="pictures/brunch.png"/>
+                        </a>
                     </div>
                     <div class="col-1"></div>
                     <div class="col-2">
-                        <img class="accueil-patisseries-img" src="pictures/Voyage.png"/>
+                        <a href="patisseries.php?categorie=voyage">
+                            <div class="hover">
+                                <div class="image-text-centered"><p class="image-text">Voyage</p></div>
+                            </div>
+                            <img class="accueil-patisseries-img" src="pictures/Voyage.png"/>
+                        </a>
                     </div>
                 </div>
             </div>

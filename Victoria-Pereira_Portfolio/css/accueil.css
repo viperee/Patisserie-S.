@@ -115,4 +115,25 @@
   font-size: 19px;
   padding: 1.5% 3.5%; }
 
+.image-text-centered {
+  position: relative;
+  top: 50%;
+  text-align: center; }
+
+.image-text {
+  font-family: Avenir-Heavy;
+  font-size: 19px;
+  color: #FFFFFF;
+  text-transform: uppercase; }
+
+.hover {
+  background-color: rgba(111, 95, 81, 0.6);
+  width: 205px;
+  height: 435px;
+  position: absolute;
+  opacity: 0; }
+
+.hover:hover {
+  opacity: 1; }
+
 /*# sourceMappingURL=accueil.css.map */

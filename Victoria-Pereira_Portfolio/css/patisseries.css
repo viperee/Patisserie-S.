@@ -93,7 +93,8 @@
 
 .patisserie-nav-link:hover {
   color: #FFCCB7;
-  font-weight: bold; }
+  font-weight: bold;
+  text-decoration: none; }
 
 .patisserie-img {
   padding: 1em; }
@@ -151,5 +152,36 @@
 
 .modal-carousel-control-next-icon:hover {
   color: #E5E2DF; }
+
+.image-text-centered {
+  position: relative;
+  top: 50%;
+  text-align: center; }
+
+.image-text {
+  font-family: Avenir-Heavy;
+  font-size: 19px;
+  color: #FFFFFF;
+  text-transform: uppercase; }
+
+.hover {
+  background-color: rgba(111, 95, 81, 0.6);
+  width: 205px;
+  height: 435px;
+  position: absolute;
+  opacity: 0; }
+
+.hover:hover {
+  opacity: 1; }
+
+.close-test {
+  background: url("icons/close.svg");
+  width: 200px; }
+
+.close {
+  color: #B6AEA7; }
+
+.close:hover {
+  color: #FFCCB7; }
 
 /*# sourceMappingURL=patisseries.css.map */

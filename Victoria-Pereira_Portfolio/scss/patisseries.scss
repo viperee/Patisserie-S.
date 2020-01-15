@@ -49,6 +49,7 @@
 .patisserie-nav-link:hover {
   color: $color-apricot;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .patisserie-img {
@@ -120,4 +121,38 @@
 
 .modal-carousel-control-next-icon:hover {
   color: $color-spring-wood;
+}
+
+.image-text-centered {
+  position: relative;
+  top: 50%;
+  text-align: center;
+}
+
+.image-text {
+  font-family: Avenir-Heavy;
+  font-size: 19px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.hover {
+  background-color: rgba(111,95,81,0.6);
+  width: 205px;
+  height: 435px;
+  position: absolute;
+  opacity: 0;
+}
+.hover:hover {
+  opacity: 1;
+}
+.close-test{
+  background: url("icons/close.svg");
+  width: 200px;
+}
+.close{
+  color: $color-silk;
+}
+.close:hover{
+  color: $color-apricot;
 }
