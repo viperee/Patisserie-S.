@@ -1,3 +1,31 @@
+@font-face {
+  font-family: Raleway-Light;
+  src: url("../fonts/Raleway-Light.ttf"); }
+
+@font-face {
+  font-family: Raleway-Medium;
+  src: url("../fonts/Raleway-Medium.ttf"); }
+
+@font-face {
+  font-family: Futura-Medium;
+  src: url("../fonts/Futura-Medium.ttf"); }
+
+@font-face {
+  font-family: Raleway-Bold;
+  src: url("../fonts/Raleway-Bold.ttf"); }
+
+@font-face {
+  font-family: Lora-Regular;
+  src: url("../fonts/Lora-Regular.ttf"); }
+
+@font-face {
+  font-family: Sacramento-Regular;
+  src: url("../fonts/Sacramento-Regular.ttf"); }
+
+@font-face {
+  font-family: Avenir-Heavy;
+  src: url("../fonts/Avenir-Heavy.ttf"); }
+
 /*--------------------------------------------------------------//
 //                          Couleur                            //
 //------------------------------------------------------------*/
@@ -112,13 +140,13 @@ a {
 
 @-webkit-keyframes flash {
   0% {
-    opacity: .4; }
+    opacity: 0.4; }
   100% {
     opacity: 1; } }
 
 @keyframes flash {
   0% {
-    opacity: .4; }
+    opacity: 0.4; }
   100% {
     opacity: 1; } }
 
@@ -303,13 +331,15 @@ a {
   padding: 70px;
   color: #968B7F;
   background-color: #E5E2DF; }
-  .section-chiffre-cle p {
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 70px; }
-  .section-chiffre-cle span {
-    font-family: Arial;
-    font-size: 22px; }
+
+.section-chiffre-cle p {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 70px; }
+
+.section-chiffre-cle span {
+  font-family: Arial;
+  font-size: 22px; }
 
 .carousel-indicators-custom {
   background-clip: border-box !important;
@@ -344,3 +374,95 @@ a {
 .raleway-light-style {
   font-family: Raleway-Light;
   font-size: 17px; }
+
+/*---------------------------------------------------------------------//
+//                          Les Patisseries                            //
+//---------------------------------------------------------------------*/
+.align-left {
+  font-family: open sans, sans-serif;
+  font-size: 14px; }
+
+.patisserie-nav {
+  display: inline-block;
+  list-style: none;
+  padding-inline-start: 0;
+  border-bottom: 0.1px solid;
+  border-bottom-color: #707070; }
+
+.patisserie-nav-item {
+  display: inline-block;
+  color: #6F5F51;
+  border-bottom: 3px solid #707070;
+  margin-right: 2em; }
+
+.patisserie-nav-item:hover {
+  border-bottom: 3px solid #FFCCB7;
+  font-weight: bold; }
+
+.active-categorie {
+  border-bottom: 3px solid #FFCCB7; }
+
+.active-categorie a {
+  color: #FFCCB7;
+  font-weight: bold; }
+
+.patisserie-nav-link {
+  font-family: Raleway-Light;
+  font-size: 27px;
+  font-weight: lighter;
+  color: #6F5F51;
+  padding: 0.5em; }
+
+.patisserie-nav-link:hover {
+  color: #FFCCB7;
+  font-weight: bold; }
+
+.patisserie-img {
+  padding: 1em; }
+
+/** MODAL **/
+.rectangle-modal {
+  width: 255%;
+  height: 3%;
+  background: #feeae0;
+  margin: 130% -20px; }
+
+.chochin-modal {
+  box-shadow: 20px 20px 0 #FFEAE0;
+  width: 100%;
+  margin-bottom: 30%; }
+
+.modal-custom-title {
+  font-family: Futura-Medium;
+  font-size: 29px;
+  text-transform: uppercase;
+  color: #968B7F;
+  padding-bottom: 55px; }
+
+.modal-padding-top {
+  padding-top: 20.4%; }
+
+.modal-presentation {
+  width: 51%; }
+
+.modal-carousel-control-prev {
+  width: 3%; }
+
+.modal-carousel-control-prev-icon {
+  color: #B6AEA7;
+  font-size: 60px; }
+
+.modal-carousel-control-prev-icon:hover {
+  color: #E5E2DF; }
+
+.modal-carousel-control-next {
+  width: 3%; }
+
+.modal-carousel-control-next-icon {
+  color: #B6AEA7;
+  font-size: 60px; }
+
+.modal-carousel-control-next-icon:hover {
+  color: #E5E2DF; }
+
+/*# sourceMappingURL=patisseries.css.map */

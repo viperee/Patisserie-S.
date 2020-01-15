@@ -4,6 +4,7 @@
 <head>
     <title>Contact</title>
     <?php include("head.php"); ?>
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
 </head>
 <body>
 <div>

@@ -1,16 +1,75 @@
-@import "colors.scss";
+@font-face {
+  font-family: Raleway-Light;
+  src: url("../fonts/Raleway-Light.ttf");
+}
+@font-face {
+  font-family: Raleway-Medium;
+  src: url("../fonts/Raleway-Medium.ttf");
+}
+@font-face {
+  font-family: Futura-Medium;
+  src: url("../fonts/Futura-Medium.ttf");
+}
+@font-face {
+  font-family: Raleway-Bold;
+  src: url("../fonts/Raleway-Bold.ttf");
+}
+@font-face {
+  font-family: Lora-Regular;
+  src: url("../fonts/Lora-Regular.ttf");
+}
+@font-face {
+  font-family: Sacramento-Regular;
+  src: url("../fonts/Sacramento-Regular.ttf");
+}
+@font-face {
+  font-family: Avenir-Heavy;
+  src: url("../fonts/Avenir-Heavy.ttf");
+}
+/*--------------------------------------------------------------//
+//                          Couleur                            //
+//------------------------------------------------------------*/
+.background-color-white {
+  background-color: #FFFFFF;
+}
+
+.background-color-chablis {
+  background-color: #FFEAE0;
+}
+
+.background-color-heathered-grey {
+  background-color: #968B7F;
+}
+
+.background-color-spring-wood {
+  background-color: #E5E2DF;
+}
+
+.color-kabul {
+  color: #6F5F51;
+}
+
+.color-heathered-grey {
+  color: #968B7F;
+}
+
+.color-white {
+  color: #FFFFFF;
+}
+
+.color-americano {
+  color: #8B7F72;
+}
 
 /*---------------------------------------------------------//
 //                          CSS                            //
 //---------------------------------------------------------*/
-
-
 /* Navbar */
-header{
-  background-color: $color-white;
+header {
+  background-color: #FFFFFF;
 }
 
-.navbar-dark .navbar-nav .nav-link{
+.navbar-dark .navbar-nav .nav-link {
   font-family: Avenir-Heavy;
   font-weight: 500;
   display: inline-block;
@@ -20,19 +79,19 @@ header{
   text-transform: uppercase;
   z-index: 1;
   margin: 0;
-  color: $color-kabul;
+  color: #6F5F51;
 }
 
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link:hover{
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link:hover {
   color: #FFCCB7;
   font-weight: 900;
 }
 
-.navbar-nav{
+.navbar-nav {
   text-align: right;
 }
 
-.navbar-brand{
+.navbar-brand {
   width: 5%;
 }
 
@@ -48,63 +107,64 @@ header{
 }
 
 /* Headings */
-
-h1{
+h1 {
   font-family: Raleway-Bold;
   font-size: 27px;
   letter-spacing: 17.25px;
-  color: $color-heathered-grey;
+  color: #968B7F;
   text-transform: uppercase;
   opacity: 1;
 }
 
-h2{
+h2 {
   font-family: Raleway-Bold;
   font-size: 27px;
   letter-spacing: 13px;
   text-transform: uppercase;
 }
 
-h3{
+h3 {
   font-family: Lora-Regular;
   font-size: 35px;
-  color: $color-kabul;
+  color: #6F5F51;
 }
 
-
-h4{
+h4 {
   font-family: Raleway-Bold;
 }
 
-h5{
+h5 {
   font-family: miller-headline, serif;
   font-style: normal;
   font-size: 20px;
 }
 
 /* TEXTE */
-p{
+p {
   font-family: Lora-Regular;
   font-size: 19px;
 }
-a{
+
+a {
   color: white;
 }
 
-.w-80{
+.w-80 {
   width: 80% !important;
 }
+
 /* IMAGE */
-.box:hover{
-  box-shadow: 20px 20px 0 $color-apricot;
-  transform: translate(-20px,-20px);
+.box:hover {
+  box-shadow: 20px 20px 0 #FFCCB7;
+  transform: translate(-20px, -20px);
   opacity: 1;
   -webkit-animation: flash 0.4s;
   animation: flash 0.4s;
 }
+
 @-webkit-keyframes flash {
   0% {
-    opacity: .4;
+    opacity: 0.4;
   }
   100% {
     opacity: 1;
@@ -112,88 +172,95 @@ a{
 }
 @keyframes flash {
   0% {
-    opacity: .4;
+    opacity: 0.4;
   }
   100% {
     opacity: 1;
   }
 }
-
-.image-text{
+.image-text {
   font-family: Raleway-Bold;
   font-size: 29px;
-  color: $color-white;
+  color: #FFFFFF;
   text-transform: uppercase;
   opacity: 1;
   letter-spacing: 14.12px;
 }
 
-.image-text-header{
+.image-text-header {
   font-family: Raleway-Bold;
   font-size: 44px;
-  color: $color-white;
+  color: #FFFFFF;
   text-transform: uppercase;
   opacity: 1;
 }
-.box{
-   position: relative;
-   display: inline-block; /* Make the width of box same as image */
-}
 
-.box-no-hover{
+.box {
   position: relative;
-  display: inline-block; /* Make the width of box same as image */
+  display: inline-block;
+  /* Make the width of box same as image */
 }
 
-.image-text-centered{
-   position: absolute;
-   z-index: 999;
-   margin: 0 auto;
-   left: 0;
-   right: 0;
-   top: 42%; /* Adjust this value to move the positioned div up and down */
-   text-align: center;
-   width: 60%; /* Set the width of the positioned div */
- }
+.box-no-hover {
+  position: relative;
+  display: inline-block;
+  /* Make the width of box same as image */
+}
 
-.image-text-centered-bottom{
+.image-text-centered {
   position: absolute;
   z-index: 999;
   margin: 0 auto;
   left: 0;
   right: 0;
-  top: 80%; /* Adjust this value to move the positioned div up and down */
+  top: 42%;
+  /* Adjust this value to move the positioned div up and down */
   text-align: center;
-  width: 60%; /* Set the width of the positioned div */
+  width: 60%;
+  /* Set the width of the positioned div */
 }
 
-.section-titre{
+.image-text-centered-bottom {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 80%;
+  /* Adjust this value to move the positioned div up and down */
+  text-align: center;
+  width: 60%;
+  /* Set the width of the positioned div */
+}
+
+.section-titre {
   padding: 60px;
 }
+
 /*-------------------------------------------------------------//
 //                          Accueil                            //
 //-------------------------------------------------------------*/
-.align-strip{
+.align-strip {
   margin-top: 175px;
 }
 
 .chochin {
-  box-shadow: 10px 10px 0 $color-chablis;
+  box-shadow: 10px 10px 0 #FFEAE0;
   width: 100%;
   margin-bottom: 30%;
 }
 
 .box-shadow-left {
-  box-shadow: -10px 10px 0 $color-chablis;
+  box-shadow: -10px 10px 0 #FFEAE0;
   margin-bottom: 5%;
 }
 
-.logo-accueil{
+.logo-accueil {
   width: 20%;
   margin-bottom: 10%;
 }
 
-.ancre-bas{
+.ancre-bas {
   width: 40px;
 }
 
@@ -203,15 +270,14 @@ a{
 
 .text-block {
   margin: 11% -8% 0 0;
-  color: $color-heathered-grey;
+  color: #968B7F;
 }
 
-.padding-top-text-block{
+.padding-top-text-block {
   padding-top: 15.8%;
 }
 
-
-.rectangle{
+.rectangle {
   width: 530%;
   height: 3%;
   background: #feeae0;
@@ -219,17 +285,21 @@ a{
 }
 
 .apropos-carousel-control-prev {
-  width: 3%; }
+  width: 3%;
+}
 
 .apropos-carousel-control-prev-icon {
-  color: $color-silk;
+  color: #B6AEA7;
   font-size: 60px;
 }
+
 .apropos-carousel-control-prev-icon:hover {
-  color: $color-apricot;
+  color: #FFCCB7;
 }
+
 .apropos-carousel-control-next {
-  width: 3%; }
+  width: 3%;
+}
 
 .apropos-carousel-control-next-icon {
   color: #B6AEA7;
@@ -237,18 +307,17 @@ a{
 }
 
 .apropos-carousel-control-next-icon:hover {
-  color: $color-apricot;
+  color: #FFCCB7;
 }
 
-
-.rectangle2{
+.rectangle2 {
   width: 335%;
   height: 3%;
   background: #feeae0;
   margin: 305% -20px;
 }
 
-.btn-primary{
+.btn-primary {
   text-transform: uppercase;
   font-family: Raleway-Bold;
   font-size: 12px;
@@ -259,107 +328,104 @@ a{
   border-radius: 0;
 }
 
-.btn-primary:hover{
+.btn-primary:hover {
   text-transform: uppercase;
   font-size: 19px;
-  border: 2px solid $color-apricot;
-  background-color: $color-apricot;
+  border: 2px solid #FFCCB7;
+  background-color: #FFCCB7;
   border-radius: 0;
   padding: 2% 6.5%;
 }
 
-.button-raleway-regular-style{
+.button-raleway-regular-style {
   font-family: Raleway-Regular;
   font-size: 19px;
   padding: 1.5% 3.5%;
 }
 
-.container-sm{
+.container-sm {
   margin-top: 7%;
 }
 
-.sponsor{
+.sponsor {
   width: 100%;
 }
 
-.nav{
+.nav {
   display: block;
   text-align: right;
 }
 
-.nav li{
+.nav li {
   display: inline-block;
 }
 
-.nav li a{
+.nav li a {
   font-size: 12px;
   text-transform: uppercase;
   margin-left: 20px;
   padding: 0;
 }
 
-.nav-link{
+.nav-link {
   color: #ddd;
   font-size: 12px;
   text-transform: uppercase;
   margin: 0 20px 0 0;
 }
 
-.nav-icons{
+.nav-icons {
   display: block;
   text-align: left;
 }
 
-
-
 /*-----------------------------------------------------------------------//
 //                          A propos                                     //
 //-----------------------------------------------------------------------*/
-
-.sacramento-style{
+.sacramento-style {
   font-family: Sacramento-Regular;
   font-size: 48px;
-  color: $color-apricot;
+  color: #FFCCB7;
   margin: 0;
 }
 
-.section-chiffre-cle{
+.section-chiffre-cle {
   padding: 70px;
-  color: $color-heathered-grey;
-  background-color: $color-spring-wood;
-  p{
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 70px;
-  }
-  span{
-    font-family: Arial;
-    font-size: 22px;
-  }
+  color: #968B7F;
+  background-color: #E5E2DF;
+}
+.section-chiffre-cle p {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 70px;
+}
+.section-chiffre-cle span {
+  font-family: Arial;
+  font-size: 22px;
 }
 
-.carousel-indicators-custom{
+.carousel-indicators-custom {
   background-clip: border-box !important;
   border-top: 12px solid transparent !important;
   border-bottom: 13px solid transparent !important;
-  background-color: $color-apricot !important;
+  background-color: #FFCCB7 !important;
   border-radius: 50%;
 }
 
-.carousel-indicators-custom.active{
-  background-color: $color-americano !important;
+.carousel-indicators-custom.active {
+  background-color: #8B7F72 !important;
 }
 
-.apropos-h3{
+.apropos-h3 {
   font-family: Raleway-Bold;
-  color: $color-heathered-grey;
+  color: #968B7F;
   text-transform: uppercase;
   font-size: 44px;
 }
 
-.apropos-p{
+.apropos-p {
   font-family: Raleway-Medium;
-  color: $color-heathered-grey;
+  color: #968B7F;
   font-size: 22px;
 }
 
@@ -367,16 +433,30 @@ a{
   margin-top: 3em;
 }
 
-.apropos-rectangle{
+.apropos-rectangle {
   width: 455%;
   height: 2.7%;
   background: #feeae0;
   margin: 100% -20px;
 }
 
-
-
-.raleway-light-style{
+.raleway-light-style {
   font-family: Raleway-Light;
   font-size: 17px;
 }
+
+/*----------------------------------------------------------------//
+//                          Copyright                            //
+//--------------------------------------------------------------*/
+.copyright-text-color-kabul {
+  color: #6F5F51;
+  font-family: Arial, sans-serif;
+  font-size: 19px;
+}
+
+.copyright-icons {
+  width: 49px;
+  height: 49px;
+}
+
+/*# sourceMappingURL=copyright.css.map */

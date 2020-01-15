@@ -1,0 +1,43 @@
+@import "fonts.scss";
+@import "style.scss";
+
+/*---------------------------------------------------------------------//
+//                          Contact                                    //
+//---------------------------------------------------------------------*/
+
+.presentation-contact{
+  width: 556px;
+}
+.paragraph-separator{
+  border-bottom: $color-kabul solid 1px;
+}
+.btn-submit-contact{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+  border: 2px solid #FFCCB7;
+  background-color: #FFCCB7;
+  border-radius: 0;
+}
+.form-control-contact{
+  border: 1px solid $color-kabul;
+  color: $color-americano;
+  border-radius: 0;
+}
+.form-control-contact::placeholder{
+  color: $color-input-placeholder;
+}
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:40%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}

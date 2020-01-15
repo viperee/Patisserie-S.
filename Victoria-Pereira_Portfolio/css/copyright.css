@@ -1,3 +1,31 @@
+@font-face {
+  font-family: Raleway-Light;
+  src: url("../fonts/Raleway-Light.ttf"); }
+
+@font-face {
+  font-family: Raleway-Medium;
+  src: url("../fonts/Raleway-Medium.ttf"); }
+
+@font-face {
+  font-family: Futura-Medium;
+  src: url("../fonts/Futura-Medium.ttf"); }
+
+@font-face {
+  font-family: Raleway-Bold;
+  src: url("../fonts/Raleway-Bold.ttf"); }
+
+@font-face {
+  font-family: Lora-Regular;
+  src: url("../fonts/Lora-Regular.ttf"); }
+
+@font-face {
+  font-family: Sacramento-Regular;
+  src: url("../fonts/Sacramento-Regular.ttf"); }
+
+@font-face {
+  font-family: Avenir-Heavy;
+  src: url("../fonts/Avenir-Heavy.ttf"); }
+
 /*--------------------------------------------------------------//
 //                          Couleur                            //
 //------------------------------------------------------------*/
@@ -112,13 +140,13 @@ a {
 
 @-webkit-keyframes flash {
   0% {
-    opacity: .4; }
+    opacity: 0.4; }
   100% {
     opacity: 1; } }
 
 @keyframes flash {
   0% {
-    opacity: .4; }
+    opacity: 0.4; }
   100% {
     opacity: 1; } }
 
@@ -303,13 +331,15 @@ a {
   padding: 70px;
   color: #968B7F;
   background-color: #E5E2DF; }
-  .section-chiffre-cle p {
-    font-family: Arial;
-    font-weight: bold;
-    font-size: 70px; }
-  .section-chiffre-cle span {
-    font-family: Arial;
-    font-size: 22px; }
+
+.section-chiffre-cle p {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 70px; }
+
+.section-chiffre-cle span {
+  font-family: Arial;
+  font-size: 22px; }
 
 .carousel-indicators-custom {
   background-clip: border-box !important;
@@ -344,3 +374,17 @@ a {
 .raleway-light-style {
   font-family: Raleway-Light;
   font-size: 17px; }
+
+/*----------------------------------------------------------------//
+//                          Copyright                            //
+//--------------------------------------------------------------*/
+.copyright-text-color-kabul {
+  color: #6F5F51;
+  font-family: Arial, sans-serif;
+  font-size: 19px; }
+
+.copyright-icons {
+  width: 49px;
+  height: 49px; }
+
+/*# sourceMappingURL=copyright.css.map */
