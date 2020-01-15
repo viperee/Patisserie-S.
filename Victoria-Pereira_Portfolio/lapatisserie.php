@@ -17,7 +17,7 @@
             <div class="image-text-centered-bottom"><p class="image-text-header">La<br> pâtisserie</p></div>
         </div>
     </section>
-    <section class="pb-5">
+    <section class="article pb-5">
         <div class="container-fluid">
             <div class="row m-5">
                 <div class="col-12 text-center">
@@ -31,8 +31,8 @@
                 </div>
             </div>
             <div class="row pt-5">
-                <div class="col-1">
-                    <div class="apropos-rectangle"></div>
+                <div class="col-2">
+                    <div class="apropos-sous-rectangle"></div>
                 </div>
                 <div class="col-5">
                     <h3 class="apropos-title color-heathered-grey pb-5">Pause gourmande à la Pâtisserie S. …</h3>
@@ -44,7 +44,7 @@
                         pâtisserie décline autour de brunchs sucrés à compter de ce printemps, les week-ends, avant de proposer un menu sucré, sur le modèle de la restauration, dès
                         le mois prochain.</p>
                 </div>
-                <div class="col-6">
+                <div class="col-5">
                     <img class="box-shadow-left" src="pictures/patisseries/patisserie1.png">
                 </div>
             </div>

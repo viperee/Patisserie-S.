@@ -141,6 +141,10 @@
   min-height: 800px;
 }
 
+.modal-content {
+  border-radius: 1.3rem;
+}
+
 .modal-custom-title {
   font-family: Futura-Medium;
   font-size: 29px;
@@ -150,11 +154,13 @@
 }
 
 .modal-padding-top {
-  padding-top: 20.4%;
+  padding-top: 18.4%;
 }
 
 .modal-presentation {
   width: 51%;
+  font-family: Raleway-Medium;
+  color: #968B7F;
 }
 
 .modal-carousel-control-prev {
@@ -170,8 +176,10 @@
   color: #E5E2DF;
 }
 
-.modal-carousel-control-next {
-  width: 3%;
+.modal-full .modal-content {
+  min-height: 800px;
+  width: 97%;
+  margin: 0 51px;
 }
 
 .modal-carousel-control-next-icon {
@@ -219,6 +227,15 @@
 
 .close:hover {
   color: #FFCCB7;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-titre {
+  font-family: Raleway-Medium;
+  color: #968B7F;
 }
 
 /*# sourceMappingURL=patisseries.css.map */

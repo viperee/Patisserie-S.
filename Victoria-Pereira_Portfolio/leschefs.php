@@ -32,8 +32,8 @@
                 </div>
             </div>
             <div class="row pt-5">
-                <div class="col-1">
-                    <div class="apropos-rectangle"></div>
+                <div class="col-2">
+                    <div class="apropos-sous-rectangle"></div>
                 </div>
                 <div class="col-5">
                     <h3 class="apropos-title color-heathered-grey pb-5">Dans le sillage de Joël Robuchon …</h3>
@@ -45,7 +45,7 @@
                         française réalisée dans les règles de l’art, à laquelle vient s’ajouter une touche d’exotisme, avec un chou matcha, un rouleau japonais ou encore un aérien
                         shoku (pain de mie).</p>
                 </div>
-                <div class="col-6">
+                <div class="col-5">
                     <img class="box-shadow-left" src="pictures/les_chefs/chefs.png">
                 </div>
             </div>

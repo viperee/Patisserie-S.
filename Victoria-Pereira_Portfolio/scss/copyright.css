@@ -75,8 +75,13 @@
 }
 
 .copyright-icons {
-  width: 49px;
-  height: 49px;
+  width: 24.5px;
+  height: 24.5px;
+}
+
+.pr-3 {
+  padding-right: 0px !important;
+  margin-right: 1rem !important;
 }
 
 /*# sourceMappingURL=copyright.css.map */

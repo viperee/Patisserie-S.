@@ -21,9 +21,9 @@
             <div class="row">
                 <div class="col-6">
                     <h3 class="text-center color-heathered-grey pb-5">Nous rendre visite</h3>
-                    <p class="pb-4 m-0 presentation-contact paragraph-separator">Labo ouvert sur les six tables du salon de thé au design impeccable, où l’on vient s’offrir un thé accompagné d’oyatsus ou d’un saint-honoré dont la vanille
+                    <p class="color-heathered-grey pb-4 m-0 presentation-contact paragraph-separator">Labo ouvert sur les six tables du salon de thé au design impeccable, où l’on vient s’offrir un thé accompagné d’oyatsus ou d’un saint-honoré dont la vanille
                         de Tahiti enchante le palais.</p>
-                    <div class="offset-3">
+                    <div class="color-heathered-grey offset-3">
                         <div class="mt-4 mb-1">
                             <span><img class="footer-company-infos-icons" src="icons/call-heathered-grey.svg"></span><span class="align-middle ml-2">05 56 06 94 54</span>
                         </div>

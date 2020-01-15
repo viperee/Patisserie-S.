@@ -108,5 +108,7 @@ $(function() {
         $(this).children().attr('src',function(index, attr){
             return attr.replace("-active.svg",".svg");});
     });
-
+    $('.carousel').carousel({
+        interval: 0
+    });
 });

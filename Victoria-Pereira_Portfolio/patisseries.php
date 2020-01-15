@@ -67,7 +67,7 @@
                                         <h3 class="modal-custom-title modal-padding-top">Forêt rouge</h3>
                                         <img class="pr-3" src="pictures/modal/modal1-current.png">
                                         <img class="" src="pictures/modal/modal1-next.png">
-                                        <p class="pt-5"><b>INFORMATION SUR LE PRODUIT</b></p>
+                                        <p class="modal-titre pt-5"><b>INFORMATION SUR LE PRODUIT</b></p>
                                         <p class="modal-presentation">Une mousse mascarpone avec un cœur coulant aux fruits rouges posé sur un sablé breton donne à ce dessert la légereté d’un
                                             nuage avec toute la saveur du fruit.</p>
                                     </div>
@@ -81,43 +81,21 @@
                                     <div class="col-1">
                                     </div>
                                     <div class="col-4 pt-5 pb-5">
-                                        <img class="chochin-modal mb-0" src="pictures/modal/modal1.png">
+                                        <img class="chochin-modal mb-0" src="pictures/modal/modal2.png">
                                     </div>
                                     <div class="col-1">
                                         <div class="rectangle-modal"></div>
                                     </div>
                                     <div class="col-5">
-                                        <h3 class="modal-custom-title modal-padding-top">Tarte aux framboises</h3>
-                                        <img class="pr-3" src="pictures/modal/modal1-current.png">
-                                        <img class="" src="pictures/modal/modal1-next.png">
-                                        <p class="pt-5"><b>INFORMATION SUR LE PRODUIT</b></p>
-                                        <p class="modal-presentation">Une mousse mascarpone avec un cœur coulant aux fruits rouges posé sur un sablé breton donne à ce dessert la légereté d’un
-                                            nuage avec toute la saveur du fruit.</p>
+                                        <h3 class="modal-custom-title modal-padding-top">Rouleau Japonais Aux Marrons</h3>
+                                        <img class="pr-3" src="pictures/modal/modal2-current.png">
+                                        <img class="" src="pictures/modal/modal2-next.png">
+                                        <p class="modal-titre pt-5"><b>INFORMATION SUR LE PRODUIT</b></p>
+                                        <p class="modal-presentation">Un étonnant biscuit cuillère léger et roulé avec une crème légère à la vanille. Une délicate saveur vanillée
+                                            pour un dessert d’une légèreté incomparable.</p>
                                     </div>
                                     <div class="col-1">
 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <div class="row pt-4 pb-5">
-                                    <div class="col-1">
-                                    </div>
-                                    <div class="col-4 pt-5 pb-5">
-                                        <img class="chochin-modal mb-0" src="pictures/modal/modal1.png">
-                                    </div>
-                                    <div class="col-1">
-                                        <div class="rectangle-modal"></div>
-                                    </div>
-                                    <div class="col-5">
-                                        <h3 class="modal-custom-title modal-padding-top">Chou matcha</h3>
-                                        <img class="pr-3" src="pictures/modal/modal1-current.png">
-                                        <img class="" src="pictures/modal/modal1-next.png">
-                                        <p class="pt-5"><b>INFORMATION SUR LE PRODUIT</b></p>
-                                        <p class="modal-presentation">Une mousse mascarpone avec un cœur coulant aux fruits rouges posé sur un sablé breton donne à ce dessert la légereté d’un
-                                            nuage avec toute la saveur du fruit.</p>
-                                    </div>
-                                    <div class="col-1">
                                     </div>
                                 </div>
                             </div>

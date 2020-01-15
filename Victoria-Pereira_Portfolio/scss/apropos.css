@@ -141,6 +141,13 @@
   margin: 100% -20px;
 }
 
+.apropos-sous-rectangle {
+  width: 267%;
+  height: 2.7%;
+  background: #feeae0;
+  margin: 45% -20px;
+}
+
 .image-text {
   font-family: Raleway-Bold;
   font-size: 29px;
@@ -191,6 +198,16 @@
   text-align: center;
   width: 60%;
   /* Set the width of the positioned div */
+}
+
+.mt-5, .article {
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
+}
+
+.avis {
+  padding-top: 6rem !important;
+  padding-bottom: 6rem !important;
 }
 
 /*# sourceMappingURL=apropos.css.map */

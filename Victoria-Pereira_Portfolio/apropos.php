@@ -24,7 +24,7 @@
                     <p class="sacramento-style">Chan</p>
                 </div>
                 <div class="col-6">
-                    <p>Le parcours respectif de Satomi et Stanley Chan est celui de l’excellence auprès de Pierre Hermé, Joël Robuchon et Yannick Alléno. En 2014, ils arrivent à
+                    <p class="color-heathered-grey">Le parcours respectif de Satomi et Stanley Chan est celui de l’excellence auprès de Pierre Hermé, Joël Robuchon et Yannick Alléno. En 2014, ils arrivent à
                         Bordeaux pour l’ouverture de La Grande Maison avec Joël Robuchon. Satomi sera la chef pâtissière de ce restaurant et Stanley le chef boulanger. En 2017, ils
                         décident d’ouvrir leur propre pâtisserie salon de thé, au coeur de Bordeaux, pour laquelle ils ont eu un véritable coup de coeur.</p>
                 </div>
@@ -80,7 +80,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section class="avis">
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li class="carousel-indicators-custom active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
@@ -92,7 +92,7 @@
                         <div class="row">
                             <div class="col-12 text-center pb-5 pt-5"><img src="icons/quote.png">
                             </div>
-                            <div class="offset-3 col-6 text-center pb-2"><p class="text-left">
+                            <div class="color-heathered-grey offset-3 col-6 text-center pb-2"><p class="text-left">
                                     Dans un charmant salon de pierres apparentes (les voûtes bordelaises) venez profiter d’une pause gourmande apaisante! Savourez le bavarois
                                     rouge, subtil et parfaitement équilibré, en sirotant un thé glacé aux fruits rouges! Puis, après avoir repris des forces, repartez avec un
                                     véritable melon pan japonais, savoureuse brioche qui égayera votre petit-déjeuner! Prix très corrects par rapport à la qualité des produits et à

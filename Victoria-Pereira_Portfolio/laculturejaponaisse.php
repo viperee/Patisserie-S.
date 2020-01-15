@@ -32,8 +32,8 @@
                 </div>
             </div>
             <div class="row pt-5">
-                <div class="col-1">
-                    <div class="apropos-rectangle"></div>
+                <div class="col-2">
+                    <div class="apropos-sous-rectangle"></div>
                 </div>
                 <div class="col-5">
                     <h3 class="apropos-title color-heathered-grey pb-5">Influences asiatiques et pâtisserie française…</h3>
@@ -43,7 +43,7 @@
                         faire. Elle respecte beaucoup la recette et la technique traditionnelle française.<br><br> A l’occasion de l’exposition As movable as butterflies. Les chôchin du
                         Japon, au musée des Arts décoratifs et du Design à Bordeaux, retrouvez le gâteau chôchin à la Pâtisserie S.</p>
                 </div>
-                <div class="col-6">
+                <div class="col-5">
                     <img class="box-shadow-left" src="pictures/culture_japonaise/patisserie1.png">
                 </div>
             </div>
