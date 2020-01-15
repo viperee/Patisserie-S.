@@ -369,7 +369,32 @@ a {
 
 .modal-carousel-control-next-icon:hover {
   color: #E5E2DF;
+}
+
+.apropos-carousel-control-prev {
+  width: 3%;
+}
+
+.apropos-carousel-control-prev-icon {
+  color: #B6AEA7;
   font-size: 60px;
+}
+
+.apropos-carousel-control-prev-icon:hover {
+  color: #FFCCB7;
+}
+
+.apropos-carousel-control-next {
+  width: 3%;
+}
+
+.apropos-carousel-control-next-icon {
+  color: #B6AEA7;
+  font-size: 60px;
+}
+
+.apropos-carousel-control-next-icon:hover {
+  color: #FFCCB7;
 }
 
 .rectangle2 {

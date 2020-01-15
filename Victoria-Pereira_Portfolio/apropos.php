@@ -84,25 +84,49 @@
             <ol class="carousel-indicators">
                 <li class="carousel-indicators-custom active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
                 <li class="carousel-indicators-custom" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li class="carousel-indicators-custom" data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="pictures/gateau1.png" class="d-block w-20" alt="...">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 text-center pb-5 pt-5"><img src="icons/quote.png">
+                            </div>
+                            <div class="offset-3 col-6 text-center pb-2"><p class="text-left">
+                                    Dans un charmant salon de pierres apparentes (les voûtes bordelaises) venez profiter d’une pause gourmande apaisante! Savourez le bavarois
+                                    rouge, subtil et parfaitement équilibré, en sirotant un thé glacé aux fruits rouges! Puis, après avoir repris des forces, repartez avec un
+                                    véritable melon pan japonais, savoureuse brioche qui égayera votre petit-déjeuner! Prix très corrects par rapport à la qualité des produits et à
+                                    l’excellence du savoir-faire! Bravo et à très bientôt !
+                                </p></div>
+                            <div class="col-12 text-center pb-5">
+                                <h3 class="pb-5">Daniel Malartrigue</h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="pictures/gateau1.png" class="d-block w-20" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="pictures/gateau1.png" class="d-block w-20" alt="...">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 text-center pb-5 pt-5"><img src="icons/quote.png">
+                            </div>
+                            <div class="offset-3 col-6 text-center pb-2"><p class="text-left">
+                                    Dans un charmant salon de pierres apparentes (les voûtes bordelaises) venez profiter d’une pause gourmande apaisante! Savourez le bavarois
+                                    rouge, subtil et parfaitement équilibré, en sirotant un thé glacé aux fruits rouges! Puis, après avoir repris des forces, repartez avec un
+                                    véritable melon pan japonais, savoureuse brioche qui égayera votre petit-déjeuner! Prix très corrects par rapport à la qualité des produits et à
+                                    l’excellence du savoir-faire! Bravo et à très bientôt !
+                                </p></div>
+                            <div class="col-12 text-center pb-5">
+                                <h3 class="pb-5">Daniel Malartrigue</h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <a class="apropos-carousel-control-prev carousel-control-prev pl-5" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="apropos-carousel-control-prev-icon" aria-hidden="true"><</span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <a class="apropos-carousel-control-next carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="apropos-carousel-control-next-icon" aria-hidden="true">></span>
                 <span class="sr-only">Next</span>
             </a>
         </div>

@@ -360,9 +360,30 @@ a{
 
 .modal-carousel-control-next-icon:hover {
   color: $color-spring-wood;
+}
+
+
+.apropos-carousel-control-prev {
+  width: 3%; }
+
+.apropos-carousel-control-prev-icon {
+  color: $color-silk;
+  font-size: 60px;
+}
+.apropos-carousel-control-prev-icon:hover {
+  color: $color-apricot;
+}
+.apropos-carousel-control-next {
+  width: 3%; }
+
+.apropos-carousel-control-next-icon {
+  color: #B6AEA7;
   font-size: 60px;
 }
 
+.apropos-carousel-control-next-icon:hover {
+  color: $color-apricot;
+}
 
 
 .rectangle2{
